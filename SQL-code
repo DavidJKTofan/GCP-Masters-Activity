@@ -1,0 +1,144 @@
+/*
+DATABASE: apache-tipi-ue
+GROUP: GrupoB_TeamAwesome
+INITITAL TABLES:
+    - MOCK_DATA_CAMPAINGS.csv
+    - MOCK_DATA_CRM.csv
+    - MOCK_DATA_FILMS_1.csv
+    - MOCK_DATA_FILMS_2.csv
+    - MOCK_DATA_FILMS_3.csv
+    - MOCK_DATA_WEB_1.csv
+    - MOCK_DATA_WEB_2.csv
+    - MOCK_DATA_WEB_3.csv
+*/
+
+
+/* INITIAL TABLE: MOCK_DATA_CRM.csv */
+-- Calcular las edades de los clientes
+SELECT *, DATE_DIFF(CURRENT_DATE(), birth_date, YEAR) AS current_age
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.MOCK_DATA_CRM` ORDER BY id ASC;
+
+-- Dividir los clientes en cuatro grupos dependiendo de su edad
+SELECT *, CASE
+WHEN current_age BETWEEN 20 AND 30 THEN "1"
+WHEN current_age BETWEEN 31 AND 40 THEN "2"
+WHEN current_age BETWEEN 41 AND 50 THEN "3"
+WHEN current_age BETWEEN 51 and 60 THEN "4" END
+AS Grupo FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATOS_CLIENTES`;
+
+-- Descubrir clientes que están fuera de los rangos anteriores
+SELECT * FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATOS_CLIENTE` WHERE Grupo IS NULL;
+
+-- Reordenar los grupos de clientes dependiendo de su edad
+SELECT *, CASE
+WHEN current_age BETWEEN 20 AND 30 THEN "2"
+WHEN current_age BETWEEN 31 and 40 THEN "3"
+WHEN current_age BETWEEN 41 AND 50 THEN "4"
+WHEN current_age BETWEEN 51 AND 60 THEN "5"
+WHEN current_age < 20 THEN "1" END
+AS Grupo FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATOS_CLIENTES_2`;
+
+--
+SELECT * FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATOS_CLIENTES_4`
+ORDER BY gender, state, race, grupo ASC;
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* INITIAL TABLES: MOCK_DATA_FILMS_1.csv, MOCK_DATA_FILMS_2.csv, MOCK_DATA_FILMS_3.csv */
+-- Unión de tablas de PELÍCULAS
+SELECT * FROM `apache-tipi-ue.GrupoB_TeamAwesome.MOCK_DATA_FILMS_1`;
+UNION ALL
+SELECT * FROM `apache-tipi-ue.GrupoB_TeamAwesome.MOCK_DATA_FILMS_2`;
+UNION ALL
+SELECT * FROM `apache-tipi-ue.GrupoB_TeamAwesome.MOCK_DATA_FILMS_3`;
+
+-- Top 25 de películas que mejor funcionan
+SELECT movie, COUNT( movie ) AS total FROM `apache-tipi-ue.GrupoB_TeamAwesome.FILMS_ALL`
+GROUP BY movie
+HAVING count(*) > 1;
+
+-- Top 5 de géneros que mejor funcionan
+SELECT movie_genre , count( movie_genre ) as total FROM `apache-tipi-ue.GrupoB_TeamAwesome.FILMS_ALL`
+GROUP BY movie_genre
+HAVING count(*) > 1
+ORDER BY total DESC limit 5;
+
+--
+SELECT movie_genre, COUNT( id ) AS total
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.FILMS_ALL`
+GROUP BY movie_genre ORDER BY COUNT( id ) DESC;
+
+
+/* INITIAL TABLES: MOCK_DATA_WEB_1.csv, MOCK_DATA_WEB_2.csv, MOCK_DATA_WEB_3.csv */
+-- Unión de tablas de NAVEGACIÓN WEB
+SELECT * FROM `apache-tipi-ue.GrupoB_TeamAwesome.MOCK_DATA_WEB_1`;
+UNION ALL
+SELECT * FROM `apache-tipi-ue.GrupoB_TeamAwesome.MOCK_DATA_WEB_2`;
+UNION ALL
+SELECT * FROM `apache-tipi-ue.GrupoB_TeamAwesome.MOCK_DATA_WEB_3`;
+
+-- Ver la base de datos completa
+SELECT * FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATA_WEB_ALL`;
+
+-- Agrupar por URL
+SELECT url, COUNT( url ) AS total FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATA_WEB_ALL`
+GROUP BY url ORDER BY total DESC;
+
+-- Las URLS mas visitadas en un top 3 son las de Aventuras con un 458 visitas, comedia con 445 Visitas y western con 429 visitas
+-- Que Navegadores utilizan los visitantes de nuestra web
+SELECT provider, COUNT( * ) FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATA_WEB_ALL`
+GROUP BY provider;
+
+-- Top 5 Navegadores
+SELECT provider, COUNT(provider) AS total FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATA_WEB_ALL`
+GROUP BY provider ORDER BY total DESC LIMIT 5;
+
+
+/* NEXT STEPS – ARITHMETIC OPERATIONS */
+--
+SELECT id, SUM (cost) AS gastos_clientes FROM `apache-tipi-ue.GrupoB_TeamAwesome.FILMS_ALL`
+GROUP BY id having gastos_clientes >50  ORDER BY gastos_clientes DESC;
+
+--
+SELECT *, CASE
+WHEN gastos_clientes >=10 AND gastos_clientes <=20 THEN "BRONZE"
+WHEN gastos_clientes >20 AND gastos_clientes <=30 THEN "SILVER"
+WHEN gastos_clientes >30 AND gastos_clientes <=50 THEN "GOLD"
+WHEN gastos_clientes >50 THEN "VIP" END
+AS scoring FROM `apache-tipi-ue.GrupoB_TeamAwesome.CLIENTES_GASTOS`;
+
+-- Left Join tablas de clientes y scoring
+SELECT * FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATOS_CLIENTES_5`
+LEFT JOIN `apache-tipi-ue.GrupoB_TeamAwesome.SCORING_CLIENTES`;
+
+-- Left Join tablas de clientes y scoring
+SELECT
+  dc.id,
+  dc.first_name,
+  dc.last_name,
+  dc.email,
+  dc.gender,
+  dc.birth_date,
+  dc.city,
+  dc.state,
+  dc.country,
+  dc.race,
+  dc.current_age,
+  dc.Grupo,
+  sc.gastos_clientes,
+  sc.scoring
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATOS_CLIENTES_5` AS dc
+LEFT JOIN `apache-tipi-ue.GrupoB_TeamAwesome.SCORING_CLIENTES2` AS sc
+ON dc.id = sc.id
+
+--
