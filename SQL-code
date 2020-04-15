@@ -12,133 +12,241 @@ INITITAL TABLES:
     - MOCK_DATA_WEB_3.csv
 */
 
-
 /* INITIAL TABLE: MOCK_DATA_CRM.csv */
 -- Calcular las edades de los clientes
-SELECT *, DATE_DIFF(CURRENT_DATE(), birth_date, YEAR) AS current_age
-FROM `apache-tipi-ue.GrupoB_TeamAwesome.MOCK_DATA_CRM` ORDER BY id ASC;
+SELECT *,
+       DATE_DIFF(CURRENT_DATE(), birth_date, YEAR) AS current_age
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.MOCK_DATA_CRM`
+ORDER BY id ASC;
 
 -- Dividir los clientes en cuatro grupos dependiendo de su edad
-SELECT *, CASE
-WHEN current_age BETWEEN 20 AND 30 THEN "1"
-WHEN current_age BETWEEN 31 AND 40 THEN "2"
-WHEN current_age BETWEEN 41 AND 50 THEN "3"
-WHEN current_age BETWEEN 51 and 60 THEN "4" END
-AS Grupo FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATOS_CLIENTES`;
+SELECT *,
+       CASE
+           WHEN current_age BETWEEN 20 AND 30 THEN "1"
+           WHEN current_age BETWEEN 31 AND 40 THEN "2"
+           WHEN current_age BETWEEN 41 AND 50 THEN "3"
+           WHEN current_age BETWEEN 51 AND 60 THEN "4"
+       END AS Grupo
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATOS_CLIENTES`;
 
 -- Descubrir clientes que están fuera de los rangos anteriores
-SELECT * FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATOS_CLIENTE` WHERE Grupo IS NULL;
+SELECT *
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATOS_CLIENTE`
+WHERE Grupo IS NULL;
 
 -- Reordenar los grupos de clientes dependiendo de su edad
-SELECT *, CASE
-WHEN current_age BETWEEN 20 AND 30 THEN "2"
-WHEN current_age BETWEEN 31 and 40 THEN "3"
-WHEN current_age BETWEEN 41 AND 50 THEN "4"
-WHEN current_age BETWEEN 51 AND 60 THEN "5"
-WHEN current_age < 20 THEN "1" END
-AS Grupo FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATOS_CLIENTES_2`;
+SELECT *,
+       CASE
+           WHEN current_age BETWEEN 20 AND 30 THEN "2"
+           WHEN current_age BETWEEN 31 AND 40 THEN "3"
+           WHEN current_age BETWEEN 41 AND 50 THEN "4"
+           WHEN current_age BETWEEN 51 AND 60 THEN "5"
+           WHEN current_age < 20 THEN "1"
+       END AS Grupo
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATOS_CLIENTES_2`;
 
---
-SELECT * FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATOS_CLIENTES_4`
-ORDER BY gender, state, race, grupo ASC;
-
-
-
-
-
-
-
-
-
-
-
-
+-- Ordenar tabla por sexo, estado, raza, y grupo 
+SELECT *
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATOS_CLIENTES_4`
+ORDER BY gender,
+         state,
+         race,
+         grupo ASC;
 
 /* INITIAL TABLES: MOCK_DATA_FILMS_1.csv, MOCK_DATA_FILMS_2.csv, MOCK_DATA_FILMS_3.csv */
 -- Unión de tablas de PELÍCULAS
-SELECT * FROM `apache-tipi-ue.GrupoB_TeamAwesome.MOCK_DATA_FILMS_1`;
+SELECT *
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.MOCK_DATA_FILMS_1`;
 UNION ALL
-SELECT * FROM `apache-tipi-ue.GrupoB_TeamAwesome.MOCK_DATA_FILMS_2`;
+SELECT *
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.MOCK_DATA_FILMS_2`;
 UNION ALL
-SELECT * FROM `apache-tipi-ue.GrupoB_TeamAwesome.MOCK_DATA_FILMS_3`;
+SELECT *
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.MOCK_DATA_FILMS_3`;
 
 -- Top 25 de películas que mejor funcionan
-SELECT movie, COUNT( movie ) AS total FROM `apache-tipi-ue.GrupoB_TeamAwesome.FILMS_ALL`
+SELECT movie,
+       COUNT(movie) AS total
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.FILMS_ALL`
 GROUP BY movie
 HAVING count(*) > 1;
 
 -- Top 5 de géneros que mejor funcionan
-SELECT movie_genre , count( movie_genre ) as total FROM `apache-tipi-ue.GrupoB_TeamAwesome.FILMS_ALL`
+SELECT movie_genre,
+       count(movie_genre) AS total
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.FILMS_ALL`
 GROUP BY movie_genre
 HAVING count(*) > 1
-ORDER BY total DESC limit 5;
+ORDER BY total DESC
+LIMIT 5;
 
 --
-SELECT movie_genre, COUNT( id ) AS total
+SELECT movie_genre,
+       COUNT(id) AS total
 FROM `apache-tipi-ue.GrupoB_TeamAwesome.FILMS_ALL`
-GROUP BY movie_genre ORDER BY COUNT( id ) DESC;
-
+GROUP BY movie_genre
+ORDER BY COUNT(id) DESC;
 
 /* INITIAL TABLES: MOCK_DATA_WEB_1.csv, MOCK_DATA_WEB_2.csv, MOCK_DATA_WEB_3.csv */
 -- Unión de tablas de NAVEGACIÓN WEB
-SELECT * FROM `apache-tipi-ue.GrupoB_TeamAwesome.MOCK_DATA_WEB_1`;
+SELECT *
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.MOCK_DATA_WEB_1`;
 UNION ALL
-SELECT * FROM `apache-tipi-ue.GrupoB_TeamAwesome.MOCK_DATA_WEB_2`;
+SELECT *
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.MOCK_DATA_WEB_2`;
 UNION ALL
-SELECT * FROM `apache-tipi-ue.GrupoB_TeamAwesome.MOCK_DATA_WEB_3`;
+SELECT *
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.MOCK_DATA_WEB_3`;
 
 -- Ver la base de datos completa
-SELECT * FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATA_WEB_ALL`;
+SELECT *
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATA_WEB_ALL`;
 
 -- Agrupar por URL
-SELECT url, COUNT( url ) AS total FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATA_WEB_ALL`
-GROUP BY url ORDER BY total DESC;
+SELECT url,
+       COUNT(url) AS total
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATA_WEB_ALL`
+GROUP BY url
+ORDER BY total DESC;
 
 -- Las URLS mas visitadas en un top 3 son las de Aventuras con un 458 visitas, comedia con 445 Visitas y western con 429 visitas
 -- Que Navegadores utilizan los visitantes de nuestra web
-SELECT provider, COUNT( * ) FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATA_WEB_ALL`
+SELECT provider,
+       COUNT(*)
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATA_WEB_ALL`
 GROUP BY provider;
 
 -- Top 5 Navegadores
-SELECT provider, COUNT(provider) AS total FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATA_WEB_ALL`
-GROUP BY provider ORDER BY total DESC LIMIT 5;
-
+SELECT provider,
+       COUNT(provider) AS total
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATA_WEB_ALL`
+GROUP BY provider
+ORDER BY total DESC
+LIMIT 5;
 
 /* NEXT STEPS – ARITHMETIC OPERATIONS */
---
-SELECT id, SUM (cost) AS gastos_clientes FROM `apache-tipi-ue.GrupoB_TeamAwesome.FILMS_ALL`
-GROUP BY id having gastos_clientes >50  ORDER BY gastos_clientes DESC;
+-- Gastos de clientes
+SELECT id,
+       SUM (cost) AS gastos_clientes
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.FILMS_ALL`
+GROUP BY id
+HAVING gastos_clientes >50
+ORDER BY gastos_clientes DESC;
 
---
-SELECT *, CASE
-WHEN gastos_clientes >=10 AND gastos_clientes <=20 THEN "BRONZE"
-WHEN gastos_clientes >20 AND gastos_clientes <=30 THEN "SILVER"
-WHEN gastos_clientes >30 AND gastos_clientes <=50 THEN "GOLD"
-WHEN gastos_clientes >50 THEN "VIP" END
-AS scoring FROM `apache-tipi-ue.GrupoB_TeamAwesome.CLIENTES_GASTOS`;
+-- Categorización de los clientes
+SELECT *,
+       CASE
+           WHEN gastos_clientes >=10
+                AND gastos_clientes <=20 THEN "BRONZE"
+           WHEN gastos_clientes >20
+                AND gastos_clientes <=30 THEN "SILVER"
+           WHEN gastos_clientes >30
+                AND gastos_clientes <=50 THEN "GOLD"
+           WHEN gastos_clientes >50 THEN "VIP"
+       END AS scoring
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.CLIENTES_GASTOS`;
 
 -- Left Join tablas de clientes y scoring
-SELECT * FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATOS_CLIENTES_5`
+SELECT *
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATOS_CLIENTES_5`
 LEFT JOIN `apache-tipi-ue.GrupoB_TeamAwesome.SCORING_CLIENTES`;
 
 -- Left Join tablas de clientes y scoring
-SELECT
-  dc.id,
-  dc.first_name,
-  dc.last_name,
-  dc.email,
-  dc.gender,
-  dc.birth_date,
-  dc.city,
-  dc.state,
-  dc.country,
-  dc.race,
-  dc.current_age,
-  dc.Grupo,
-  sc.gastos_clientes,
-  sc.scoring
+SELECT dc.id,
+       dc.first_name,
+       dc.last_name,
+       dc.email,
+       dc.gender,
+       dc.birth_date,
+       dc.city,
+       dc.state,
+       dc.country,
+       dc.race,
+       dc.current_age,
+       dc.Grupo,
+       sc.gastos_clientes,
+       sc.scoring
 FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATOS_CLIENTES_5` AS dc
-LEFT JOIN `apache-tipi-ue.GrupoB_TeamAwesome.SCORING_CLIENTES2` AS sc
-ON dc.id = sc.id
+LEFT JOIN `apache-tipi-ue.GrupoB_TeamAwesome.SCORING_CLIENTES2` AS sc ON dc.id = sc.id;
+
+-- Left Join tablas de películas y scoring del grupo de VIP
+SELECT VIP.id,
+       f.movie_genre,
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.FILMS_ALL` AS F
+LEFT JOIN `apache-tipi-ue.GrupoB_TeamAwesome.SCORING_CLIENTES2` AS VIP ON f.id = VIP.id
+WHERE VIP.scoring = "VIP";
+
+-- Top cinco géneros de películas favoritas para el grupo de clientes VIP
+SELECT COUNT(*) AS cantidad,
+       movie_genre
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.VIP_MOVIE_GENRE`
+GROUP BY movie_genre
+ORDER BY cantidad DESC
+LIMIT 5;
+
+-- Left Join tablas de películas y scoring
+SELECT f.id,
+       f.cost,
+       f.movie,
+       f.movie_genre,
+       f.time,
+       f.date,
+       f.campaing,
+       sc.scoring
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.FILMS_ALL` AS f
+LEFT JOIN `apache-tipi-ue.GrupoB_TeamAwesome.SCORING_CLIENTES2` AS sc ON f.id = sc.id;
+
+-- Añadir categoría de las fechas en meses
+SELECT *,
+       CASE
+           WHEN date BETWEEN '2019-01-01' AND '2019-01-31' THEN "JANUARY"
+           WHEN date BETWEEN '2019-02-01' AND '2019-02-28' THEN "FEBRUARY"
+           WHEN date BETWEEN '2019-03-01' AND '2019-03-31' THEN "MARCH"
+           WHEN date BETWEEN '2019-04-01' AND '2019-04-30' THEN "APRIL"
+           WHEN date BETWEEN '2019-05-01' AND '2019-05-31' THEN "MAY"
+           WHEN date BETWEEN '2019-06-01' AND '2019-06-30' THEN "JUNE"
+           WHEN date BETWEEN '2019-07-01' AND '2019-07-31' THEN "JULY"
+           WHEN date BETWEEN '2019-08-01' AND '2019-08-31' THEN "AUGUST"
+           WHEN date BETWEEN '2019-09-01' AND '2019-09-30' THEN "SEPTEMBER"
+           WHEN date BETWEEN '2019-10-01' AND '2019-10-31' THEN "OCTOBER"
+           WHEN date BETWEEN '2019-11-01' AND '2019-11-30' THEN "NOVEMBER"
+           WHEN date BETWEEN '2019-12-01' AND '2019-12-31' THEN "DECEMBER"
+       END AS MONTH
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.FILMS_ALL`;
+
+-- Clientes por mes
+SELECT COUNT(*) AS CLIENTS_PER_MONTH,
+       MONTH
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.FILMS_ALL_SCORING_2`
+GROUP BY MONTH
+ORDER BY CLIENTS_PER_MONTH DESC;
+
+--
+SELECT COUNT(*) AS cantidad,
+       movie_genre,
+       grupo
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.CLIENTES_FILMS`
+GROUP BY movie_genre,
+         grupo
+ORDER BY grupo,
+         cantidad DESC;
+
+-- Para todos los grupos el género que mejor funciona es Drama
+SELECT grupo,
+       movie_genre,
+       max(cantidad) max_cantidad
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.generos_por_grupo`
+GROUP BY grupo,
+         movie_genre
+ORDER BY max_cantidad DESC;
+
+--
+SELECT COUNT(*) AS cantidad,
+       movie_genre,
+       gender
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.CLIENTES_FILMS`
+GROUP BY movie_genre,
+         gender
+ORDER BY cantidad DESC;
 
 --
