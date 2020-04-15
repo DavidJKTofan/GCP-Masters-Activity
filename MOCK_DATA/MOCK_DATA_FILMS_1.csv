@@ -1,0 +1,1001 @@
+id,cost,movie,movie_genre,time,date,campaing
+444,9.71,Old School,Comedy,12:44 PM,12/05/2019,TwAds
+684,7.47,Knucklehead,Comedy|Drama,1:23 AM,02/05/2019,Amazon
+789,10.05,Pentimento,Drama,9:15 AM,01/09/2019,FbAds-fb
+1,12.22,Secrets of a Soul (Geheimnisse einer Seele),Drama,2:08 AM,05/23/2019,FbAds-fb
+666,8.61,Eu Não Quero Voltar Sozinho (I Don't Want to Go Back Alone),Drama|Romance,12:40 PM,10/25/2019,FbAds-fb
+884,7.13,"Call of the Wild, The",Action|Adventure|Drama|Romance|Western,9:12 PM,04/18/2019,TwAds
+88,11.77,The Lego Movie,Action|Adventure|Animation|Children|Comedy|Fantasy,6:06 AM,08/16/2019,FbAds-in
+635,8.96,Bugsy Malone,Children|Comedy|Crime|Musical,6:43 AM,09/07/2019,TwAds
+50,3.8,Chunhyang,Drama|Musical|Romance,3:58 AM,01/24/2019,Amazon
+906,7.24,Juliet of the Spirits (Giulietta degli spiriti),Comedy|Drama|Fantasy|Romance,10:39 AM,05/15/2019,FbAds-fb
+69,3.41,Highly Dangerous,Action|Thriller,5:08 AM,01/18/2019,Amazon
+199,8.04,"Pleasure Party (Partie de plaisir, Une) (Piece of Pleasure, A)",Drama,12:15 PM,12/01/2019,TwAds
+799,1.6,Never Ever! (Nigdy w zyciu!),Comedy|Romance,6:48 AM,02/07/2019,FbAds-in
+812,9.06,Doom,Action|Horror|Sci-Fi,9:12 AM,08/23/2019,TwAds
+102,11.59,For Roseanna (Roseanna's Grave),Comedy|Drama|Romance,7:59 PM,08/30/2019,TwAds
+446,11.11,"Yoo-Hoo, Mrs. Goldberg",Documentary,6:16 AM,08/12/2019,Amazon
+949,5.34,"New Guy, The",Comedy,8:06 AM,08/27/2019,FbAds-in
+504,8.99,Horrible Bosses 2,Comedy|Crime,6:45 PM,09/22/2019,FbAds-fb
+107,6.43,"Grand, The",Comedy,2:31 PM,06/16/2019,TwAds
+683,1.59,First Strike (Police Story 4: First Strike) (Ging chaat goo si 4: Ji gaan daan yam mo),Action|Adventure|Comedy|Thriller,7:36 PM,04/11/2019,FbAds-in
+129,11.49,The Dot and the Line : A Romance in Lower Mathematics,Animation|Children|Comedy,6:18 AM,08/19/2019,Amazon
+772,6.8,Permanent Midnight,Drama,1:00 AM,07/11/2019,Amazon
+13,12.15,"Collection, The",Action|Horror|Thriller,2:29 AM,01/05/2019,FbAds-fb
+278,9.23,Never Say Never Again,Action|Adventure|Thriller,7:44 AM,08/23/2019,Amazon
+28,1.63,Manborg,Action|Adventure|Comedy,4:47 AM,01/27/2019,TwAds
+181,3.54,Killer (Bulletproof Heart),Drama|Thriller,8:38 AM,10/23/2019,TwAds
+320,13.6,Bless the Child,Thriller,2:39 PM,05/28/2019,Amazon
+38,11.9,"Starfighters, The",Drama,4:25 AM,02/24/2019,TwAds
+341,8.93,SIS,Action|Crime|Drama|Thriller,2:25 AM,04/07/2019,TwAds
+76,13.95,Broken Flowers,Comedy|Drama,2:54 PM,04/06/2019,FbAds-in
+1000,13.93,Camille Claudel 1915,Drama,11:41 PM,12/10/2019,FbAds-in
+616,10.98,Minority Report,Action|Crime|Mystery|Sci-Fi|Thriller,2:28 AM,11/23/2019,TwAds
+682,9.12,Meet the Robinsons,Action|Adventure|Animation|Children|Comedy|Sci-Fi,8:40 AM,04/22/2019,FbAds-in
+203,6.81,Dangerous Liaisons,Comedy|Crime|Drama|Mystery,5:14 PM,08/23/2019,TwAds
+171,7.71,Mother Knows Best,Crime|Thriller,10:20 AM,07/06/2019,Amazon
+619,14.98,Chaos,Crime|Drama|Horror,3:09 AM,07/06/2019,Amazon
+23,10.33,Yellowbeard,Action|Adventure|Comedy,6:36 PM,06/24/2019,Amazon
+214,2.9,Hostile Intentions,Action|Drama|Thriller,5:47 AM,08/10/2019,GAds
+611,8.8,Vendetta,Action|Crime,11:30 AM,02/04/2019,GAds
+737,14.64,Any Number Can Win (Mélodie en sous-sol ),Crime,11:03 PM,07/01/2019,FbAds-in
+256,3.54,Everything I Can See From Here,Adventure|Animation|Drama|Sci-Fi,9:02 PM,12/09/2019,TwAds
+776,7.44,Flock of Dodos: The Evolution-Intelligent Design Circus,Documentary,2:32 AM,11/23/2019,FbAds-in
+731,13.78,"Unknown Woman, The (La Sconosciuta)",Drama|Mystery|Thriller,6:56 AM,11/07/2019,FbAds-in
+337,8.11,"Hurricane Express, The",Adventure|Crime|Drama,6:53 AM,03/05/2019,Amazon
+265,10.2,Seduced and Abandoned (Sedotta e abbandonata),Comedy|Drama,10:22 AM,07/05/2019,Amazon
+304,7.31,Napoléon,Drama|War,3:16 PM,01/27/2019,GAds
+942,14.22,Gimme Shelter,Documentary,6:16 PM,11/20/2019,FbAds-fb
+758,14.83,Ollie Hopnoodle's Haven of Bliss,Children|Comedy,9:25 PM,06/05/2019,TwAds
+70,5.24,Our Daily Bread (Unser täglich Brot),Documentary,12:10 PM,04/14/2019,FbAds-in
+200,11.38,Pride of the Marines,Drama|War,11:49 PM,07/31/2019,GAds
+501,14.62,Kamchatka,Drama,10:05 PM,07/11/2019,GAds
+69,4.43,Personal Velocity,Drama,3:37 AM,01/20/2019,FbAds-fb
+816,1.07,Ladies in Retirement,Drama,3:42 PM,05/17/2019,FbAds-in
+269,1.28,Children of Men,Action|Adventure|Drama|Sci-Fi|Thriller,11:18 AM,04/11/2019,Amazon
+702,4.8,In Bed (En la cama),Drama,11:34 AM,11/10/2019,FbAds-fb
+194,13.42,"Living Sea, The",Documentary|IMAX,5:50 AM,01/25/2019,Amazon
+68,5.1,Orphans,Comedy|Drama,3:57 AM,01/25/2019,FbAds-fb
+455,3.62,Mission: Impossible,Action|Adventure|Mystery|Thriller,3:57 AM,03/11/2019,Amazon
+342,11.07,"Queen, The",Drama,11:11 AM,01/13/2019,FbAds-in
+642,2.54,One of Our Aircraft Is Missing,Action|Drama|War,12:21 AM,06/21/2019,GAds
+455,11.43,"Sweet Hereafter, The",Drama,2:26 AM,09/22/2019,FbAds-fb
+68,7.26,Silent Action,Action|Crime|Drama,11:44 AM,08/16/2019,GAds
+795,5.93,Police Story (Ging chaat goo si),Action|Comedy|Crime|Thriller,12:11 AM,08/10/2019,GAds
+396,12.6,F for Fake (Vérités et mensonges),Documentary|Mystery,6:21 PM,11/23/2019,FbAds-in
+115,7.58,Coco Before Chanel (Coco avant Chanel),Drama,3:07 PM,07/17/2019,FbAds-in
+467,6.54,Sexual Chronicles of a French Family (Chroniques sexuelles d'une famille d'aujourd'hui),Comedy|Drama,6:39 PM,10/13/2019,GAds
+840,11.84,Amandla! A Revolution in Four Part Harmony,Documentary|Musical,9:01 AM,06/02/2019,FbAds-in
+593,13.97,Only the Strong,Action,6:14 PM,07/18/2019,FbAds-in
+226,11.26,Newsies,Children|Musical,7:33 AM,10/18/2019,TwAds
+391,12.27,"Redes (Fishermen's Nets) (Wave, The)",Drama,9:19 PM,11/11/2019,FbAds-fb
+962,6.01,Bebe's Kids,Animation|Children|Comedy,3:58 PM,01/19/2019,TwAds
+900,3.29,Battle Royale 2: Requiem (Batoru rowaiaru II: Chinkonka),Action|Drama|Thriller|War,4:19 PM,05/01/2019,FbAds-in
+322,7.89,That Night's Wife,Drama,11:34 AM,08/27/2019,FbAds-in
+964,3.15,Moulin Rouge,Drama|Musical|Romance,2:13 PM,11/15/2019,Amazon
+697,3.59,Pirates of the Caribbean: On Stranger Tides,Action|Adventure|Fantasy|IMAX,7:40 PM,12/07/2019,GAds
+537,14.18,Nas: Time Is Illmatic,Documentary,5:53 PM,04/21/2019,FbAds-fb
+502,3.59,Man of Marble (Czlowiek z Marmuru),Drama,12:04 AM,04/27/2019,TwAds
+893,10.17,Forever Strong,Drama,7:05 PM,04/19/2019,FbAds-fb
+726,10.63,"Importance of Being Earnest, The",Comedy|Drama|Romance,5:23 PM,11/16/2019,TwAds
+515,1.17,Shock Waves,Horror,11:33 AM,05/17/2019,TwAds
+923,1.43,Imitation of Life,Drama|Romance,3:17 AM,04/13/2019,Amazon
+773,5.38,"Bridge Too Far, A",Action|Drama|War,8:39 PM,02/27/2019,FbAds-in
+612,10.83,Carmen Miranda: Bananas Is My Business,Documentary,7:30 PM,02/20/2019,FbAds-in
+239,14.78,"Monkey's Teeth (Dents du singe, Les)",Animation,12:49 AM,08/19/2019,GAds
+286,6.17,Rage of Angels: The Story Continues,Drama,9:04 AM,12/28/2019,FbAds-fb
+451,11.79,"Man Who Cried, The",Drama,2:03 AM,07/22/2019,TwAds
+649,10.31,Marriage Retreat,Comedy|Drama,5:29 PM,12/02/2019,FbAds-in
+160,6.95,Will Penny,Romance|Western,1:28 AM,04/20/2019,FbAds-in
+888,12.35,Charlie Chan in Paris,Comedy|Crime|Drama|Mystery|Thriller,4:25 PM,11/18/2019,FbAds-in
+454,5.87,Boundin',Animation|Children,11:58 AM,11/07/2019,TwAds
+834,1.73,Witness,Drama|Romance|Thriller,7:42 PM,07/05/2019,GAds
+111,3.91,Lulu in Berlin,Documentary,6:42 AM,09/15/2019,TwAds
+879,1.3,Crazy in Alabama,Comedy|Drama,10:40 AM,01/11/2019,Amazon
+702,12.27,Root of All Evil?,Documentary,4:17 PM,10/13/2019,Amazon
+153,12.05,800 Bullets (800 Balas),Comedy|Crime|Drama|Western,10:09 AM,01/20/2019,Amazon
+973,9.78,Shanghai Kiss,Comedy|Drama|Romance,5:03 PM,10/20/2019,GAds
+761,8.81,Eye In The Sky (Gun chung),Crime|Thriller,1:00 AM,08/31/2019,TwAds
+659,1.25,Stormheart,Children|Drama,12:40 AM,12/28/2019,TwAds
+143,10.8,"Lord of the Rings: The Fellowship of the Ring, The",Adventure|Fantasy,8:41 AM,01/10/2019,GAds
+526,7.18,Forbidden City Cop (Dai lap mat tam 008),Action|Comedy,4:57 AM,03/02/2019,TwAds
+226,3.3,Silent Action,Action|Crime|Drama,5:40 PM,04/12/2019,GAds
+701,2.12,Just Pals,Western,1:51 AM,06/07/2019,Amazon
+308,2.71,Crossfire Trail (Louis L'Amour's 'Crossfire Trail'),Action|Western,3:03 AM,08/26/2019,FbAds-fb
+155,14.72,Mr. Brooks,Crime|Drama|Thriller,12:16 AM,04/03/2019,FbAds-in
+732,1.39,Scenes from the Class Struggle in Beverly Hills,Comedy,9:52 AM,03/04/2019,FbAds-fb
+153,14.66,"Killing Room, The",Drama|Mystery|Thriller,7:11 PM,02/25/2019,FbAds-in
+227,5.19,Becoming Jane,Drama|Romance,2:22 AM,09/23/2019,GAds
+421,7.28,Secrets of Eden,Drama|Mystery|Thriller,2:55 PM,02/22/2019,TwAds
+492,12.11,The Prophecy: Forsaken,Fantasy|Horror|Thriller,10:28 AM,05/25/2019,TwAds
+779,7.33,Goldfinger,Action|Adventure|Thriller,9:21 AM,05/10/2019,FbAds-fb
+692,8.37,Sergeant Rutledge,Crime|Western,11:43 PM,01/05/2019,FbAds-in
+460,4.62,Nancy Goes to Rio,Comedy|Musical,7:21 PM,04/19/2019,TwAds
+29,9.77,Yeh Jawaani Hai Deewani,Comedy|Drama|Musical|Romance,6:15 AM,01/01/2019,FbAds-fb
+496,12.85,Fail-Safe,Drama|Thriller|War,4:12 PM,12/27/2019,GAds
+17,4.67,Eulogy,Comedy|Crime|Drama,5:37 AM,07/16/2019,GAds
+412,13.38,"Great Escape, The",Action|Adventure|Drama|War,12:08 AM,04/26/2019,FbAds-fb
+126,9.2,Hard Target,Action|Adventure|Crime|Thriller,3:13 PM,03/30/2019,TwAds
+955,12.06,11.6,Crime|Drama,1:46 AM,08/07/2019,GAds
+843,1.94,Paulie,Adventure|Children|Comedy,12:15 AM,12/16/2019,GAds
+619,7.66,Starry starry night (Xing kong),Children|Drama|Fantasy,3:42 PM,10/14/2019,FbAds-fb
+631,3.86,Into the Deep,Documentary|IMAX,12:12 PM,03/14/2019,FbAds-in
+702,7.5,"Three Stooges in Orbit, The",Comedy|Sci-Fi,5:20 PM,11/15/2019,GAds
+160,14.18,Night of the Living Dorks,Comedy|Horror,12:36 AM,11/22/2019,FbAds-fb
+421,7.56,Scourge,Horror|Mystery|Sci-Fi,12:02 AM,12/12/2019,GAds
+101,12.9,"Honor Among Thieves (Adieu l'ami) (Farewell, Friend)",Action|Adventure|Crime|Drama|Mystery|Thriller,7:45 AM,06/18/2019,FbAds-in
+323,7.96,Hollywood Shuffle,Comedy,6:12 PM,10/20/2019,TwAds
+443,8.19,Tale of the Mummy,Adventure|Fantasy|Horror,12:12 AM,09/11/2019,FbAds-in
+460,10.55,Wanted,Action|Romance,6:06 AM,04/19/2019,TwAds
+313,11.12,Eden,Drama,5:54 PM,03/29/2019,Amazon
+365,14.14,Sins,Drama|Romance,1:46 PM,05/10/2019,Amazon
+220,8.81,Predator,Action|Sci-Fi|Thriller,7:14 AM,11/06/2019,GAds
+679,5.13,"Fear, The",Horror,5:10 AM,03/24/2019,FbAds-fb
+684,1.87,"Ivan the Terrible, Part Two (Ivan Groznyy II: Boyarsky zagovor)",Drama,6:37 AM,03/21/2019,TwAds
+488,11.98,Blue Like Jazz,Comedy|Drama,12:55 PM,06/28/2019,FbAds-fb
+337,2.18,Way Out West,Comedy|Western,10:46 AM,02/08/2019,GAds
+498,12.76,Broken Lance,Drama|Romance|Western,8:27 AM,06/14/2019,GAds
+661,10.2,Basket Case 3: The Progeny,Comedy|Horror,6:41 PM,07/24/2019,FbAds-fb
+987,7.45,Armless,Comedy,9:07 PM,02/26/2019,FbAds-fb
+909,6.57,She Cried No (Freshman Fall),Crime|Drama,4:13 PM,07/13/2019,TwAds
+156,10.97,Back to Bataan,Drama|War,8:43 AM,02/06/2019,FbAds-in
+909,11.8,"Ninja, A Band of Assassins (Shinobi No Mono)",Action|Drama,3:51 AM,08/12/2019,FbAds-fb
+384,7.78,Money as Debt,Animation|Documentary,9:57 PM,08/29/2019,FbAds-in
+262,13.38,"Hello, Dolly!",Comedy|Musical|Romance,6:14 PM,03/07/2019,TwAds
+356,10.06,Candyman: Farewell to the Flesh,Fantasy|Horror,6:03 PM,02/17/2019,FbAds-in
+606,1.78,Foxes,Drama,7:51 PM,07/25/2019,FbAds-fb
+110,9.62,Aujourd'hui,Drama,2:28 AM,07/21/2019,Amazon
+468,7.54,You're Next,Horror|Thriller,5:46 PM,02/18/2019,TwAds
+77,5.0,Pandora's Promise,Documentary,4:43 AM,05/30/2019,FbAds-fb
+639,9.17,"Lord, Save Us from Your Followers",Documentary,2:27 AM,01/01/2019,Amazon
+172,5.94,Nausicaä of the Valley of the Wind (Kaze no tani no Naushika),Adventure|Animation|Drama|Fantasy|Sci-Fi,8:26 AM,07/18/2019,GAds
+148,9.96,Mr. Thank You (Arigatô-san),Drama,1:47 PM,04/09/2019,Amazon
+882,1.82,Side Street,Crime|Drama|Film-Noir,10:32 PM,03/18/2019,Amazon
+281,14.77,Invisible Target (Naam yi boon sik),Action|Crime,10:13 PM,12/24/2019,FbAds-fb
+693,11.67,Dance with a Stranger,Crime|Drama|Thriller,4:40 AM,07/19/2019,GAds
+245,7.56,Circus,Crime|Drama|Thriller,2:44 PM,04/01/2019,GAds
+57,8.47,Hush,Horror|Thriller,8:18 AM,03/19/2019,FbAds-in
+73,4.59,"Red Shoes, The",Drama|Fantasy|Musical|Romance,11:02 PM,06/24/2019,Amazon
+92,2.33,"Unfinished Life, An",Drama,1:48 AM,11/09/2019,GAds
+893,4.1,Navy Seals,Action|Adventure|War,5:06 PM,02/07/2019,FbAds-fb
+755,2.28,Maximum Overdrive,Horror,2:35 AM,10/02/2019,FbAds-fb
+38,3.05,"Eclipse, The",Drama|Horror|Thriller,8:32 PM,01/12/2019,GAds
+991,6.36,Babe: Pig in the City,Adventure|Children|Drama,6:33 PM,02/06/2019,GAds
+95,4.88,Crazy as Hell,Drama,12:46 PM,07/20/2019,FbAds-fb
+43,5.42,"Milwaukee, Minnesota",Drama,6:34 AM,05/31/2019,FbAds-in
+331,8.2,He Was a Quiet Man,Drama,8:26 AM,12/24/2019,FbAds-fb
+893,13.1,Ambush Trail,Action|Western,7:01 AM,02/28/2019,FbAds-fb
+612,14.56,Curtis's Charm,Comedy|Drama,8:44 PM,11/25/2019,FbAds-fb
+42,2.67,Charlie Bartlett,Comedy|Drama,3:12 AM,01/31/2019,Amazon
+831,2.65,"Machine That Kills Bad People, The (La Macchina Ammazzacattivi)",Comedy|Fantasy,4:46 PM,10/13/2019,TwAds
+350,14.38,Macbeth,Drama,9:38 AM,02/02/2019,GAds
+459,8.16,Into the Middle of Nowhere,Adventure|Children|Comedy|Documentary|Drama,4:11 PM,12/01/2019,FbAds-in
+443,9.99,Project Grizzly,Documentary,1:27 PM,10/08/2019,GAds
+600,12.36,.45,Crime|Drama|Thriller,12:41 AM,10/02/2019,FbAds-fb
+618,9.36,Teenage Mutant Ninja Turtles,Action|Adventure|Comedy,1:08 PM,09/10/2019,GAds
+579,4.52,Lolita,Drama|Romance,8:05 PM,04/20/2019,Amazon
+887,9.55,Defense of the Realm,Thriller,12:04 PM,12/26/2019,FbAds-fb
+950,5.27,Ce que mes yeux ont vu,Drama|Mystery|Thriller,2:22 AM,06/06/2019,Amazon
+655,8.77,The Moromete Family,Drama,1:47 AM,11/25/2019,Amazon
+318,1.81,Answer This!,Comedy|Romance,1:57 PM,05/10/2019,FbAds-fb
+913,3.75,Knucklehead,Comedy|Drama,6:40 PM,06/24/2019,FbAds-fb
+934,9.01,Gunman's Walk ,Western,9:11 AM,03/13/2019,TwAds
+822,9.39,The Devil and the Holy Water,Comedy,1:14 PM,05/07/2019,Amazon
+3,2.74,Sleepwalk with Me,Comedy|Drama,12:44 AM,03/24/2019,FbAds-in
+855,14.77,Lovers & Leavers (Kuutamolla),Drama|Romance,12:37 AM,08/04/2019,FbAds-in
+975,8.4,Connections,Documentary,12:11 AM,03/20/2019,GAds
+967,4.84,Subject Two,Drama|Thriller,6:40 AM,10/17/2019,FbAds-in
+987,10.83,Trixie,Comedy|Crime|Mystery,10:24 PM,07/22/2019,TwAds
+404,11.81,Jackie Brown,Crime|Drama|Thriller,8:31 AM,03/05/2019,FbAds-fb
+651,13.37,¡Three Amigos!,Comedy|Western,8:58 PM,08/20/2019,FbAds-in
+291,5.69,Tom and Jerry: The Movie,Animation|Children|Comedy,12:50 PM,12/20/2019,GAds
+402,10.9,"Story of a Cheat, The (Roman d'un tricheur, Le)",Comedy,4:25 AM,07/25/2019,FbAds-fb
+533,1.56,Light Years Away,Drama,12:52 PM,08/26/2019,FbAds-fb
+290,8.03,"Hatchet for the Honeymoon (Rosso segno della follia, Il)",Fantasy|Horror|Thriller,7:21 AM,12/29/2019,Amazon
+204,14.36,A Blank on the Map,Documentary,5:20 PM,01/30/2019,TwAds
+122,6.5,In My Skin (Dans ma Peau),Drama,1:24 PM,04/22/2019,TwAds
+733,6.13,Zatoichi on the Road (Zatôichi kenka-tabi) (Zatôichi 5),Action|Drama,7:07 AM,04/23/2019,FbAds-in
+512,2.37,Ed Wood,Comedy|Drama,5:12 PM,05/19/2019,FbAds-in
+466,7.4,Eastern Plays,Drama,1:52 PM,03/07/2019,FbAds-fb
+293,8.39,Charlie Brown's Christmas Tales,Animation|Children|Comedy,4:45 PM,03/28/2019,GAds
+707,8.74,Into the Storm,Action|Thriller,10:51 PM,04/23/2019,TwAds
+512,12.86,"Dark at the Top of the Stairs, The",Drama,4:26 AM,07/29/2019,GAds
+604,12.31,Sweetie,Drama,2:25 AM,02/03/2019,Amazon
+744,9.88,Running Out of Time (Am zin),Action|Crime|Drama|Thriller,6:33 AM,02/03/2019,FbAds-in
+408,7.33,10 Years,Comedy|Drama|Romance,6:38 AM,06/05/2019,TwAds
+370,14.74,The Snow Woman,Fantasy|Horror,8:18 AM,02/21/2019,Amazon
+883,9.28,Viimeiset rotannahat ,Comedy,6:34 AM,04/08/2019,GAds
+622,11.53,Black Beauty,Adventure|Children|Drama,9:17 AM,08/14/2019,FbAds-fb
+977,11.92,Free the Nipple,Comedy|Drama,6:12 AM,05/07/2019,Amazon
+812,13.21,They Call Him Bulldozer (Lo chiamavano Bulldozer),Action|Comedy,7:48 PM,07/12/2019,FbAds-fb
+212,2.46,Swing Vote,Comedy|Drama,12:42 AM,01/18/2019,GAds
+799,13.81,King Arthur,Action|Adventure|Drama|War,1:09 PM,12/05/2019,GAds
+711,11.19,Paris Trout,Drama,5:21 AM,07/06/2019,FbAds-in
+277,4.6,Treasure Island,Adventure,12:30 PM,11/27/2019,FbAds-in
+699,2.58,"Downfall (Untergang, Der)",Drama|War,3:48 AM,02/07/2019,FbAds-fb
+552,1.51,"Thousand Words, A",Comedy|Drama,12:06 PM,08/26/2019,GAds
+919,9.08,"Art of Negative Thinking, The (Kunsten å tenke negativt)",Comedy|Drama,11:36 PM,07/05/2019,Amazon
+156,3.69,Daffy Duck's Quackbusters,Animation|Children|Comedy|Horror,1:37 AM,12/28/2019,FbAds-in
+590,12.18,"Party 2, The (Boum 2, La)",Comedy|Romance,10:44 PM,04/28/2019,Amazon
+8,6.48,Ladybug Ladybug ,Drama,2:29 PM,04/14/2019,FbAds-in
+670,8.22,Oscar,Comedy|Crime|Mystery|Romance,2:00 AM,03/16/2019,Amazon
+128,7.44,"Pursuit of Happiness, The",Drama,2:51 PM,07/05/2019,GAds
+159,8.07,Rough Night in Jericho,Western,4:08 PM,09/02/2019,TwAds
+235,10.5,Johnny Got His Gun,Drama|War,2:20 PM,03/23/2019,FbAds-fb
+815,11.49,Ratatouille,Animation|Children|Drama,12:34 PM,03/19/2019,Amazon
+348,12.33,Hoosiers (a.k.a. Best Shot),Drama|Romance,1:06 PM,07/11/2019,GAds
+580,6.42,Dragon Ball Z: Super Android 13! (Doragon bôru Z 7: Kyokugen batoru!! San dai sûpâ saiyajin),Action|Adventure|Animation,11:32 AM,08/30/2019,GAds
+591,13.89,The Red Inn,Comedy|Crime,2:56 AM,07/15/2019,GAds
+633,13.34,Farewell to Matyora,Drama,10:52 PM,10/31/2019,GAds
+96,13.35,Czech Dream (Ceský sen),Documentary,6:03 AM,06/03/2019,FbAds-fb
+243,6.31,Pilate and Others (Pilatus und andere - Ein Film für Karfreitag) ,Drama,6:04 PM,07/15/2019,FbAds-fb
+733,6.72,Transformers: Age of Extinction,Action|Adventure|Sci-Fi,2:22 AM,11/28/2019,GAds
+469,12.97,"Machine Girl, The (Kataude mashin gâru)",Action|Comedy|Fantasy|Horror|Thriller,11:45 AM,02/11/2019,GAds
+449,6.64,American Gun,Drama,1:11 AM,10/30/2019,FbAds-in
+876,4.2,Brooklyn Rules,Crime|Drama|Romance,12:21 AM,10/21/2019,GAds
+354,3.14,Blank City,Documentary,7:25 AM,12/14/2019,Amazon
+988,7.75,Breathe In,Drama|Romance,1:51 AM,08/31/2019,GAds
+86,11.35,Dance with Me,Drama|Romance,2:26 AM,05/27/2019,GAds
+712,8.53,"Devil's Rejects, The",Action|Crime|Horror,6:39 PM,09/10/2019,Amazon
+298,12.75,"Boys and Girls Guide to Getting Down, The",Comedy,4:18 PM,04/26/2019,FbAds-in
+912,11.61,Almost an Angel,Comedy,12:24 AM,12/14/2019,TwAds
+334,10.53,The Disappearance of Eleanor Rigby: Her,Drama,9:48 PM,04/01/2019,FbAds-fb
+405,14.79,"Banishment, The (Izgnanie)",Drama,1:44 AM,05/06/2019,TwAds
+982,4.45,"Greatest Love, The (Europa '51)",Drama,7:12 AM,09/23/2019,Amazon
+632,5.79,"Man in the White Suit, The",Comedy|Sci-Fi,8:15 PM,05/29/2019,FbAds-fb
+726,12.84,Son of Dracula,Horror,8:54 PM,03/22/2019,FbAds-in
+659,1.28,"Last Movie, The",Drama,7:45 PM,01/11/2019,GAds
+927,11.29,Pandaemonium,Drama,2:05 PM,05/31/2019,GAds
+250,4.43,3 Ninjas Knuckle Up,Action|Children,4:21 AM,09/03/2019,FbAds-fb
+982,3.35,United States of Secrets (Part One): The Program,Documentary,1:46 PM,11/03/2019,TwAds
+459,1.5,Hammer of the Gods,Action,6:15 AM,10/12/2019,Amazon
+760,13.98,"Unknown, The (a.k.a. Alonzo the Armless)",Drama|Horror|Romance,8:38 AM,09/23/2019,GAds
+220,3.94,Miss Météo,Comedy|Drama,3:36 PM,05/16/2019,FbAds-in
+936,7.12,Cockfighter,Drama,12:32 AM,12/27/2019,GAds
+497,8.64,"Hip Hop Witch, Da",Comedy|Horror|Thriller,9:23 PM,11/19/2019,FbAds-fb
+634,3.27,Hiding Out,Comedy,10:13 PM,11/23/2019,GAds
+360,12.64,Trixie,Comedy|Crime|Mystery,11:13 PM,06/12/2019,FbAds-in
+308,9.65,"Private Lives of Elizabeth and Essex, The",Drama|Romance,5:49 AM,04/24/2019,GAds
+431,7.7,Just a Kiss,Comedy|Romance,2:42 AM,06/20/2019,TwAds
+53,8.08,Adios Carmen,Drama,10:08 PM,02/02/2019,FbAds-in
+168,7.86,"Bohemian Life, The (La vie de bohème)",Comedy|Drama,6:19 AM,09/24/2019,GAds
+167,3.73,"New Country, The (Det nya landet)",Comedy|Drama,8:39 AM,07/03/2019,TwAds
+167,13.34,"Criminal, The (a.k.a. Concrete Jungle)",Crime|Drama,11:20 AM,02/22/2019,Amazon
+732,2.29,3 Needles,Drama,8:06 AM,05/26/2019,Amazon
+372,2.74,Jesse Stone: No Remorse,Crime|Mystery,3:14 AM,11/25/2019,FbAds-fb
+953,9.64,Children of Nature (Börn náttúrunnar),Drama|Mystery,5:02 AM,03/25/2019,GAds
+193,5.72,I Accuse,Crime|Drama|Thriller,4:20 AM,02/15/2019,FbAds-in
+134,5.46,Winter Break,Comedy|Drama,4:58 AM,02/23/2019,Amazon
+143,5.07,Sugar & Spice,Comedy,10:42 AM,08/13/2019,GAds
+405,3.25,Giorgino,Adventure|Drama|Horror,4:49 AM,08/02/2019,TwAds
+110,4.69,Uwasa No Onna (The Woman in the Rumor) (Her Mother's Profession),Drama|Romance,2:37 AM,02/25/2019,Amazon
+778,12.4,Times Square,Drama,10:59 AM,03/19/2019,FbAds-in
+349,7.96,"Beast, The (La bête)",Drama|Fantasy|Horror|Mystery|Romance,4:58 PM,10/06/2019,Amazon
+272,11.77,Destruction Force,Crime,10:20 AM,05/16/2019,Amazon
+731,8.19,Song of the Little Road (Pather Panchali),Drama,11:24 PM,04/07/2019,FbAds-in
+502,14.82,Forbidden Games (Jeux interdits),Drama|War,5:48 PM,09/29/2019,FbAds-in
+642,9.58,Charlie Chan's Chance,Mystery,5:57 PM,02/18/2019,GAds
+338,8.68,Smooth Talk,Drama|Romance,3:59 PM,11/06/2019,Amazon
+241,13.15,Mongol,Drama|War,3:44 PM,07/22/2019,GAds
+737,13.67,Save the Last Dance 2,Drama|Romance,10:36 PM,01/06/2019,FbAds-fb
+297,12.02,Tall in the Saddle,Mystery|Romance|Western,9:35 PM,09/30/2019,Amazon
+508,10.42,"Gatekeepers, The",Documentary,7:37 PM,05/24/2019,GAds
+610,12.92,Dark City,Adventure|Film-Noir|Sci-Fi|Thriller,12:31 AM,10/17/2019,GAds
+834,12.77,Evil Dead,Horror,6:18 PM,04/15/2019,TwAds
+638,3.87,"Firm, The",Drama|Thriller,3:22 PM,04/03/2019,TwAds
+712,11.22,Rhinoceros,Comedy|Drama|Fantasy|Mystery|Romance,4:10 AM,12/22/2019,TwAds
+844,3.69,Poor Us: An Animated History of Poverty,Animation|Documentary,5:48 PM,11/03/2019,FbAds-in
+199,2.95,Hells Angels on Wheels,Drama,7:36 AM,02/10/2019,FbAds-fb
+496,14.26,Women Robbers (Diebinnen),Drama,8:37 PM,02/21/2019,TwAds
+109,5.0,Buying the Cow,Comedy|Romance,12:25 PM,06/13/2019,GAds
+699,4.9,Sergeant Körmy and the South Pacific (Vääpeli Körmy ja etelän hetelmät),Comedy,11:51 PM,12/01/2019,FbAds-in
+762,11.88,I Got Next,Documentary,1:27 PM,09/09/2019,Amazon
+468,8.41,"Rising Place, The",Drama,8:24 PM,11/01/2019,FbAds-in
+368,2.04,"Poll Diaries, The (Poll)",Drama|War,7:22 AM,06/03/2019,TwAds
+24,5.82,Grudge Match,Comedy,5:09 AM,03/28/2019,TwAds
+762,3.51,Lap Dance,Drama,8:43 AM,08/11/2019,Amazon
+242,5.85,Super Fly (Superfly),Action|Crime|Drama,12:45 AM,11/14/2019,TwAds
+794,4.35,Wall Street,Drama,6:05 AM,03/07/2019,GAds
+283,13.73,Bikini Beach,Comedy,8:28 PM,10/04/2019,FbAds-in
+252,13.5,"Painting Sellers, The (Taulukauppiaat)",Drama,1:33 PM,01/28/2019,FbAds-in
+775,7.81,Skins,Crime|Drama,12:43 AM,07/22/2019,Amazon
+849,4.87,Guyana Tragedy: The Story of Jim Jones,Drama,6:27 PM,11/26/2019,FbAds-fb
+228,5.63,Unfaithfully Yours,Comedy,9:01 PM,05/02/2019,TwAds
+163,10.71,Nadine,Comedy,5:16 PM,07/16/2019,TwAds
+899,1.79,Law Abiding Citizen,Drama|Thriller,9:50 AM,01/30/2019,TwAds
+467,4.56,To Have and Have Not,Adventure|Drama|Romance|Thriller|War,2:02 PM,11/20/2019,FbAds-in
+197,11.33,"Ranma ½: Big Trouble in Nekonron, China (Ranma ½: Chûgoku Nekonron daikessen! Okite yaburi no gekitô hen)",Animation|Comedy,9:22 AM,09/02/2019,Amazon
+390,1.79,Heart of a Lion (Leijonasydän),Drama|Romance,1:01 AM,09/22/2019,Amazon
+229,11.81,"Namesake, The",Drama|Romance,8:44 PM,03/27/2019,GAds
+505,7.27,East-West (Est-ouest),Drama|Romance,9:16 PM,03/08/2019,TwAds
+770,12.48,Landet som icke är,Drama,3:26 AM,10/27/2019,GAds
+862,2.63,Glue,Drama,4:35 PM,03/11/2019,FbAds-fb
+703,8.34,"Love Song for Bobby Long, A",Drama,3:37 PM,08/09/2019,GAds
+546,7.03,"Three Brothers 2, The (Les trois frères, le retour)",Comedy,10:06 PM,04/19/2019,TwAds
+544,11.77,Versailles,Drama,7:10 AM,10/14/2019,TwAds
+969,10.77,Smiley's People,Drama|Mystery,7:21 PM,12/11/2019,Amazon
+772,14.42,"Time for Drunken Horses, A (Zamani barayé masti asbha)",Drama,4:49 PM,01/05/2019,Amazon
+597,6.98,Han Gong-ju,Drama,9:30 PM,07/27/2019,FbAds-fb
+176,8.42,Dishonored,Drama|War,6:38 AM,11/29/2019,Amazon
+840,1.17,"Three Musketeers, The",Action|Adventure|Thriller,11:33 AM,06/12/2019,GAds
+960,10.63,Virginia City,Action|Drama|Romance|Western,9:37 AM,11/20/2019,GAds
+897,14.72,"Night in Old Mexico, A",Drama|Western,10:41 PM,10/02/2019,Amazon
+805,3.36,Zaza,Drama,1:56 AM,08/27/2019,Amazon
+486,4.39,Voices of Iraq,Documentary,9:03 AM,09/25/2019,FbAds-in
+535,6.0,Police Academy 2: Their First Assignment,Comedy|Crime,1:10 PM,05/30/2019,FbAds-in
+315,8.63,"Pickle, The",Comedy,5:38 AM,03/02/2019,FbAds-fb
+294,5.55,"Name for Evil, A",Horror,2:47 PM,05/24/2019,Amazon
+629,1.99,Night of the Zombies (a.k.a. Hell of the Living Dead) (Virus),Action|Horror|Thriller,9:24 AM,03/11/2019,GAds
+99,1.16,Divine Intervention (Yadon ilaheyya),Comedy|Drama|Romance|War,4:21 AM,02/22/2019,FbAds-in
+422,8.85,Mouchette,Drama,8:34 PM,07/20/2019,FbAds-in
+531,13.97,Mother Knows Best,Crime|Thriller,6:56 AM,10/19/2019,GAds
+971,7.74,"Padrecito, El (Little Priest)",Comedy|Drama,10:30 AM,08/11/2019,FbAds-in
+286,1.5,Here Comes the Navy,Comedy|Drama|Romance,10:48 AM,10/13/2019,Amazon
+212,7.91,Afterburn,Drama,12:38 AM,08/18/2019,FbAds-in
+714,4.2,Facing the Truth (At kende sandheden),Drama,9:06 AM,09/21/2019,GAds
+873,12.98,One Piece Film: Strong World,Action|Adventure|Animation|Comedy|Fantasy,9:35 AM,03/29/2019,FbAds-in
+376,10.16,Dracula: Dead and Loving It,Comedy|Horror,4:02 AM,11/25/2019,FbAds-in
+521,2.4,Games,Thriller,1:13 PM,12/04/2019,FbAds-fb
+894,12.86,Mondo Trasho,Comedy,8:58 PM,11/16/2019,FbAds-fb
+157,6.13,Red Cliff Part II (Chi Bi Xia: Jue Zhan Tian Xia),Action|Drama|War,2:15 AM,05/27/2019,FbAds-in
+614,11.64,Shortbus,Comedy|Drama|Romance,5:48 AM,08/30/2019,FbAds-in
+405,10.68,"Crimson Wing: Mystery of the Flamingos, The",Documentary,12:25 PM,01/15/2019,FbAds-in
+605,1.64,The Six Million Dollar Man,Adventure|Sci-Fi,7:37 AM,12/03/2019,FbAds-in
+716,2.02,Before the Rains,Drama|Romance|Thriller,8:03 PM,08/15/2019,GAds
+367,14.39,Saturday Night Fever,Comedy|Drama|Romance,6:29 PM,11/28/2019,GAds
+339,1.29,The Well,Drama|Film-Noir|Thriller,3:16 PM,02/15/2019,FbAds-fb
+380,13.62,"Actor's Revenge, An (Yukinojô henge)",Drama,6:52 AM,08/26/2019,TwAds
+153,2.63,Encounter in the Third Dimension,IMAX,3:30 PM,02/06/2019,FbAds-in
+249,11.56,Go for Broke!,Drama|War,1:07 PM,06/08/2019,TwAds
+521,14.47,"Hatchet for the Honeymoon (Rosso segno della follia, Il)",Fantasy|Horror|Thriller,9:52 AM,04/08/2019,FbAds-in
+4,13.59,"Fighting Temptations, The",Drama,2:34 PM,11/25/2019,TwAds
+76,4.83,Idiot's Delight,Comedy|Drama,3:37 PM,12/20/2019,Amazon
+796,4.92,10.5,Action|Drama,5:29 PM,11/03/2019,GAds
+853,6.8,loudQUIETloud: A Film About the Pixies,Documentary,1:51 AM,08/21/2019,FbAds-in
+801,1.33,Bestiaire,Documentary,7:25 AM,01/15/2019,Amazon
+361,5.35,Superman II,Action|Sci-Fi,4:19 PM,06/09/2019,GAds
+652,12.76,Don Jon,Comedy|Drama|Romance,6:20 AM,08/06/2019,FbAds-in
+126,2.84,Rush,Action|Drama,8:56 PM,08/24/2019,GAds
+483,10.01,"Man Who Loved Women, The (Homme qui aimait les femmes, L')",Comedy|Drama|Romance,9:51 AM,04/25/2019,FbAds-fb
+329,5.33,Where the Heart Is,Comedy|Drama,1:08 AM,02/08/2019,GAds
+562,12.78,Blazing Guns,Adventure|Western,5:40 PM,07/16/2019,FbAds-fb
+25,4.61,Shocker,Horror,4:43 AM,02/01/2019,Amazon
+494,7.01,Decasia: The State of Decay,Documentary,9:00 PM,09/09/2019,FbAds-in
+527,3.4,Emmett's Mark,Crime|Drama|Thriller,8:45 PM,01/20/2019,FbAds-fb
+88,6.34,My Ain Folk,Drama,4:06 AM,09/22/2019,Amazon
+886,8.44,"Lady of Chance, A",Comedy|Drama|Romance,3:00 AM,03/13/2019,Amazon
+38,14.69,Harakiri,Drama,6:29 PM,12/20/2019,FbAds-fb
+310,9.66,Kill by Inches,Fantasy|Horror|Thriller,2:35 PM,08/21/2019,FbAds-fb
+889,1.96,"Designated Mourner, The",Drama,4:14 AM,01/03/2019,Amazon
+525,4.05,Forever Hardcore: The Documentary,Documentary,12:59 AM,03/28/2019,FbAds-fb
+500,14.63,We Are Marshall,Drama,6:17 PM,08/24/2019,FbAds-fb
+799,4.98,Musa the Warrior (Musa),Action|Adventure|Drama|War,2:16 PM,04/05/2019,TwAds
+179,3.41,"Green Man, The",Comedy,4:13 PM,06/16/2019,FbAds-fb
+770,8.96,Tarzan the Ape Man,Action|Adventure,4:30 PM,09/29/2019,TwAds
+468,3.06,Night Shift,Comedy,11:44 PM,09/27/2019,TwAds
+831,13.59,"Speed Of Thought, The",Sci-Fi|Thriller,6:26 AM,07/21/2019,FbAds-in
+984,9.32,Rapid Fire,Action|Crime|Thriller,5:52 PM,02/21/2019,Amazon
+967,2.16,Jabberwocky,Adventure|Comedy|Fantasy,12:25 AM,01/04/2019,FbAds-in
+204,10.9,"Peach Thief, The (Kradetzat na praskovi)",Drama|Romance|War,5:47 AM,06/13/2019,TwAds
+435,9.97,"Hen, his wife",(no genres listed),1:08 AM,11/30/2019,FbAds-fb
+110,5.28,"Red Dwarf, The (Nain rouge, Le)",Comedy|Drama,4:59 AM,10/11/2019,GAds
+171,4.17,The Rabbi's Cat (Le chat du rabbin),Adventure|Animation,12:35 AM,12/18/2019,TwAds
+553,3.16,City Hunter (Sing si lip yan),Action|Comedy|Romance,6:41 AM,03/03/2019,TwAds
+489,11.89,"Band Called Death, A",Documentary,3:13 PM,06/08/2019,GAds
+304,13.58,Somewhere in the Night,Crime|Drama|Film-Noir,3:34 PM,08/19/2019,Amazon
+519,2.53,Puncture,Drama,6:30 PM,03/23/2019,GAds
+7,14.43,Children Underground,Documentary,1:50 PM,03/22/2019,FbAds-fb
+369,11.87,Savages,Crime|Drama|Thriller,2:40 PM,12/14/2019,TwAds
+482,6.81,"Botany of Desire, The",Documentary,5:21 PM,06/18/2019,TwAds
+318,8.91,Lola (Twinky) (London Affair),Comedy|Drama|Romance,2:15 PM,05/30/2019,FbAds-fb
+374,5.05,The Walking Hills,Western,7:06 PM,05/26/2019,FbAds-in
+698,1.63,Goldfish Memory,Comedy|Drama,11:23 AM,03/16/2019,TwAds
+88,9.38,Club Sandwich,Comedy,12:57 AM,03/30/2019,GAds
+530,2.45,Without Lying Down: Frances Marion and the Power of Women in Hollywood,Documentary,4:00 PM,08/21/2019,FbAds-fb
+840,13.14,"Handful of Dust, A",Drama,5:59 AM,01/04/2019,GAds
+98,1.86,Repeaters ,Action|Drama,7:46 AM,09/23/2019,Amazon
+154,13.17,"Who Are you Polly Maggoo (Qui êtes-vous, Polly Maggoo?)",Comedy,1:22 PM,08/06/2019,FbAds-fb
+383,3.97,Infamous,Drama,8:09 PM,06/15/2019,FbAds-in
+466,8.72,Dangerous Davies: The Last Detective,Comedy|Crime,9:33 AM,02/01/2019,FbAds-in
+518,12.05,"Defender, The",Action,4:31 PM,11/19/2019,Amazon
+364,5.13,Mother's Day,Comedy|Horror,2:17 AM,07/16/2019,FbAds-fb
+697,12.42,"Wheel, The (La Roue)",Drama,11:36 AM,07/07/2019,FbAds-in
+968,14.7,Big City Blues,Comedy|Drama,10:12 AM,06/12/2019,FbAds-fb
+454,13.87,9 Star Hotel (Malon 9 Kochavim),Documentary,6:53 AM,12/14/2019,FbAds-fb
+926,10.31,Joe's Palace,Drama,8:08 AM,04/13/2019,GAds
+929,10.53,Coma,Thriller,12:51 PM,09/04/2019,GAds
+466,12.67,Sex in Chains (Geschlecht in Fesseln),Drama,3:35 PM,08/19/2019,TwAds
+447,10.19,Wrecked,Thriller,2:24 AM,06/10/2019,FbAds-fb
+502,8.71,Charlie Chan's Murder Cruise,Comedy|Crime|Mystery|Thriller,9:05 AM,11/04/2019,FbAds-in
+45,5.66,2:37,Drama,9:51 PM,05/14/2019,FbAds-fb
+651,9.07,"Petits ruisseaux, Les",Drama,6:53 PM,01/25/2019,GAds
+339,14.56,Night and Fog (Nuit et brouillard),Crime|Documentary|War,4:34 PM,03/20/2019,FbAds-in
+223,10.56,Venus and Serena,Documentary,1:22 AM,05/10/2019,GAds
+194,9.31,"Last Angry Man, The",Drama,7:30 PM,08/31/2019,FbAds-fb
+806,5.7,Nightwing,Horror,10:46 AM,07/20/2019,TwAds
+983,2.4,The Kingdom of Dreams and Madness,Animation|Documentary,12:08 PM,01/14/2019,FbAds-in
+720,11.64,"Secrets, The (Sodot, Ha-)",Drama|Romance,6:27 AM,01/16/2019,GAds
+588,6.05,"Bolero (Uns et les autres, Les)",Drama|War,4:59 PM,11/14/2019,FbAds-in
+331,14.57,Point Blank,Action|Crime|Drama|Thriller,2:25 PM,07/24/2019,FbAds-fb
+282,11.63,"Fast Five (Fast and the Furious 5, The)",Action|Crime|Drama|Thriller|IMAX,2:06 PM,12/10/2019,TwAds
+591,5.22,"Angels' Share, The",Comedy|Drama,12:49 PM,08/13/2019,FbAds-fb
+913,8.09,Kinbaku,Documentary,4:25 PM,11/15/2019,FbAds-in
+121,10.47,Farsan,Comedy,10:11 AM,06/15/2019,GAds
+892,2.83,"Fuck You, Goethe (Fack Ju Göhte)",Comedy,6:09 AM,12/24/2019,FbAds-in
+777,7.73,Baran,Adventure|Drama|Romance,2:44 PM,11/27/2019,FbAds-fb
+998,9.24,"Saratov Approach, The",Action|Drama,5:30 AM,04/22/2019,GAds
+409,14.31,Scenes From a Marriage (Scener ur ett äktenskap),Drama,12:46 PM,09/11/2019,FbAds-in
+56,13.33,Burning Bright,Drama|Horror|Thriller,8:06 PM,01/28/2019,FbAds-fb
+470,5.54,Double Trouble,Action|Comedy,11:45 AM,01/31/2019,GAds
+999,7.1,Driven,Action|Thriller,11:17 AM,07/28/2019,FbAds-fb
+434,7.89,"Housewarming (Travaux, on sait quand ça commence...)",Comedy,7:59 PM,09/27/2019,GAds
+154,9.97,Titanic,Action|Drama|Romance,8:44 PM,07/08/2019,GAds
+477,13.92,"Eagle Has Two Heads, The (L'aigle à deux têtes)",Drama,7:12 PM,09/06/2019,GAds
+753,10.19,Army Brats (Schatjes!),Children|Comedy,11:12 AM,10/06/2019,Amazon
+482,8.36,Jezebel,Drama,5:10 PM,06/19/2019,Amazon
+569,10.24,Anonymous,Drama,9:29 AM,09/30/2019,FbAds-fb
+878,8.72,Carless Love,Drama,7:04 AM,10/02/2019,GAds
+987,12.08,Chaos,Comedy|Crime|Drama,7:23 PM,03/27/2019,FbAds-in
+812,6.65,Inkheart,Adventure|Fantasy,12:52 PM,11/07/2019,Amazon
+209,13.71,Gilles' Wife (La femme de Gilles),Drama,9:30 PM,07/12/2019,FbAds-fb
+754,7.38,Mulan II,Action|Animation|Children|Comedy|Musical,7:24 PM,02/25/2019,FbAds-fb
+503,8.49,Amazon Women on the Moon,Comedy|Sci-Fi,8:01 AM,08/10/2019,FbAds-fb
+369,14.63,"Perfect Host, The",Crime|Drama|Thriller,10:15 PM,12/21/2019,GAds
+590,6.7,Mildred Pierce,Drama|Film-Noir,11:43 AM,04/28/2019,GAds
+804,2.48,Madagascar,Adventure|Animation|Children|Comedy,2:18 PM,04/13/2019,GAds
+656,13.71,Dummy,Comedy|Drama|Romance,8:39 AM,08/28/2019,FbAds-in
+979,12.32,Boys Life 2,Drama,2:28 AM,07/02/2019,FbAds-in
+908,12.19,Young Detective Dee: Rise of the Sea Dragon (Di Renjie: Shen du long wang),Action|Adventure|Drama|Fantasy|Mystery|IMAX,8:49 AM,06/28/2019,TwAds
+136,4.73,Train of Shadows (Tren de sombras),Drama,3:57 AM,01/09/2019,FbAds-in
+968,1.69,"East, The",Drama,8:17 PM,07/18/2019,GAds
+110,14.65,Pee-wee's Big Adventure,Adventure|Comedy,5:28 PM,02/04/2019,GAds
+386,3.4,"Pillow Book, The",Drama|Romance,3:09 AM,06/04/2019,Amazon
+543,12.44,Howards End,Drama,2:31 PM,09/03/2019,FbAds-fb
+751,1.72,Love Ghost (Shibito no koiwazura),Horror,8:00 PM,05/15/2019,FbAds-fb
+343,14.94,Jamilya,Drama|Romance|War,3:25 PM,04/30/2019,FbAds-fb
+479,12.94,"Ice Pirates, The",Action|Adventure|Comedy|Sci-Fi,4:42 AM,06/19/2019,TwAds
+731,11.63,Home Run,Drama,11:14 AM,01/23/2019,FbAds-in
+647,1.24,"Day in the Country, A (Partie de campagne)",Drama|Romance,6:26 PM,03/21/2019,Amazon
+2,9.77,"Invention of Lying, The",Comedy,9:06 PM,04/07/2019,FbAds-in
+331,11.81,Hangman's Knot,Western,8:54 AM,11/24/2019,Amazon
+89,4.04,End of Watch,Crime|Drama|Thriller,3:55 AM,09/27/2019,FbAds-fb
+212,13.87,"Andromeda Strain, The",Sci-Fi,7:27 AM,02/02/2019,TwAds
+767,5.93,Jersey Girl,Comedy|Romance,7:16 AM,12/23/2019,FbAds-in
+712,12.62,Going Straight,Crime|Drama,2:41 AM,09/10/2019,FbAds-fb
+832,6.94,Shark Attack,Action|Horror,6:23 AM,12/02/2019,Amazon
+805,2.99,"Invisible, The",Crime|Drama|Fantasy|Mystery|Thriller,8:01 AM,03/18/2019,Amazon
+877,1.67,Nelly & Monsieur Arnaud,Drama,8:57 AM,03/19/2019,TwAds
+634,2.8,"Apple, The (Sib)",Drama,4:07 AM,08/07/2019,FbAds-fb
+703,2.08,Metropolis,Drama|Sci-Fi,9:31 AM,11/02/2019,GAds
+715,12.92,Number One with a Bullet,Action|Comedy,9:28 AM,11/07/2019,FbAds-in
+30,11.17,Wide Awake,Children|Comedy|Drama,4:00 PM,04/19/2019,GAds
+282,11.58,Tapped,Documentary,1:12 AM,02/10/2019,TwAds
+265,9.52,Corvette Summer,Adventure|Comedy,10:19 PM,08/31/2019,FbAds-fb
+970,8.56,"Stoplight Society, The (La Sociedad del Semáforo)",Drama,1:48 AM,01/10/2019,TwAds
+34,7.9,Hells Angels on Wheels,Drama,9:16 PM,12/16/2019,TwAds
+68,13.51,Kind Hearts and Coronets,Comedy|Drama,6:02 AM,07/13/2019,GAds
+102,13.18,Road to Perdition,Crime|Drama,5:53 AM,01/20/2019,GAds
+978,12.89,OT: Our Town,Documentary,8:14 AM,11/12/2019,TwAds
+629,6.32,Flicker (Flimmer),Comedy|Drama,6:22 PM,11/09/2019,Amazon
+238,6.2,Return to Me,Drama|Romance,12:53 AM,10/19/2019,TwAds
+544,1.48,Dream Boy,Drama|Romance,11:34 AM,07/08/2019,FbAds-in
+298,3.92,Desperate Journey,Drama|War,1:35 PM,10/28/2019,TwAds
+365,4.4,"Mysterious X, The (Sealed Orders) (Det hemmelighedsfulde X)",Drama|War,5:45 PM,08/01/2019,GAds
+532,9.29,Double Take,Documentary,3:26 AM,04/06/2019,FbAds-fb
+383,8.8,Beats Rhymes & Life: The Travels of a Tribe Called Quest,Documentary,9:37 PM,01/19/2019,Amazon
+457,8.67,In the Blood,Action|Crime|Thriller,4:40 PM,10/15/2019,FbAds-in
+137,6.96,Legend of the Guardians: The Owls of Ga'Hoole,Adventure|Animation|Fantasy|IMAX,2:11 PM,03/24/2019,FbAds-in
+14,10.98,"""Great Performances"" Cats",Musical,3:49 PM,10/29/2019,FbAds-in
+143,9.34,Filthy Gorgeous: The Bob Guccione Story,Documentary,3:05 AM,12/18/2019,FbAds-in
+620,2.58,Going to Kansas City,Drama|Romance|Thriller,11:36 AM,04/13/2019,Amazon
+331,2.09,Forgotten,Drama|Mystery|Thriller,4:49 AM,12/22/2019,FbAds-fb
+853,1.32,Asfour Stah,Drama,11:40 AM,08/19/2019,FbAds-fb
+745,10.28,99 and 44/100% Dead,Action|Adventure|Comedy|Crime,9:10 AM,08/02/2019,Amazon
+318,11.14,"Pandora's Box (Büchse der Pandora, Die)",Drama,6:31 PM,11/21/2019,Amazon
+555,6.19,Coyote Ugly,Comedy|Drama|Romance,12:41 PM,05/28/2019,FbAds-in
+898,7.67,"Unforgettable Summer, An (Un été inoubliable)",Drama,7:38 PM,11/20/2019,FbAds-in
+66,14.08,Below the Belt,Action|Comedy|Drama,11:03 PM,05/02/2019,FbAds-fb
+111,10.6,Project Grizzly,Documentary,4:31 AM,08/06/2019,TwAds
+577,3.48,Lightning Strikes Twice,Drama|Mystery,11:19 AM,03/22/2019,FbAds-fb
+281,7.75,Bonnie and Clyde,Crime|Documentary|Drama,2:52 AM,08/18/2019,GAds
+577,9.34,Symbol (Shinboru),Comedy|Fantasy,8:23 PM,03/09/2019,Amazon
+514,12.22,Big Jim McLain,Action|Crime|Drama|Romance|Thriller,1:29 AM,10/09/2019,FbAds-in
+833,6.36,Meshes of the Afternoon,Fantasy,7:54 AM,05/09/2019,FbAds-fb
+651,10.31,"Prophecy, The",Fantasy|Horror|Mystery,7:12 PM,12/15/2019,GAds
+889,4.53,"Bullet for the General, A (Quién Sabe?)",Western,12:42 AM,01/13/2019,Amazon
+85,2.34,Harakiri,Drama,7:54 PM,09/09/2019,FbAds-in
+500,13.8,"Constant Gardener, The",Drama|Thriller,11:27 AM,03/03/2019,Amazon
+571,1.82,"Evening with Kevin Smith, An",Comedy|Documentary,10:30 AM,03/10/2019,FbAds-fb
+568,8.48,"Tomb, The",Horror|Thriller,9:37 PM,09/06/2019,FbAds-in
+857,8.16,Paradise: Faith (Paradies: Glaube),Drama,5:05 AM,11/13/2019,FbAds-fb
+748,4.46,Ugly,Mystery|Thriller,2:26 PM,01/25/2019,Amazon
+610,12.87,"Allnighter, The",Comedy|Romance,6:26 PM,10/04/2019,Amazon
+735,5.51,Divorce American Style,Comedy,4:09 PM,04/03/2019,Amazon
+719,5.35,Liverpool,Drama,1:39 AM,04/11/2019,FbAds-in
+910,12.71,Keep the Lights On,Drama,6:08 PM,01/14/2019,FbAds-fb
+734,13.47,Children of the Living Dead,Horror|Thriller,5:57 AM,05/07/2019,FbAds-fb
+667,7.32,Housebound,Comedy|Horror|Thriller,10:54 PM,05/24/2019,FbAds-fb
+283,2.51,Ten Canoes,Adventure|Comedy|Drama|War,4:06 AM,09/20/2019,FbAds-in
+638,5.46,Woman of the Year,Comedy|Romance,7:47 AM,09/29/2019,TwAds
+626,9.51,Beach Party,Comedy,12:43 AM,05/17/2019,GAds
+725,9.96,"Human Experience, The",Documentary,4:03 PM,11/12/2019,FbAds-fb
+866,3.14,"District, The (Nyócker!)",Animation|Comedy,3:02 AM,04/29/2019,Amazon
+655,7.77,Immigrants (L.A. Dolce Vita),Animation,6:47 AM,12/27/2019,FbAds-fb
+547,3.5,"Certain Kind Of Death, A",Documentary,4:19 PM,09/22/2019,FbAds-fb
+577,7.25,"Murderer Lives at Number 21, The (L'assassin habite... au 21)",Comedy|Mystery|Thriller,5:39 PM,05/01/2019,FbAds-fb
+903,14.56,Morituri,Drama|War,11:53 PM,11/08/2019,FbAds-in
+241,8.81,Ninja Assassin,Action|Crime|Drama|Thriller,10:30 AM,07/16/2019,Amazon
+907,1.82,"Paimen, piika ja emäntä",Drama,12:17 PM,10/27/2019,TwAds
+851,12.93,Fat Head,Documentary,4:10 PM,08/15/2019,TwAds
+919,4.82,Shoot-Out at Medicine Bend,Western,10:28 AM,03/31/2019,FbAds-fb
+950,3.83,Reform School Girls,Action|Drama,1:08 PM,03/16/2019,Amazon
+852,6.84,Daughter from Danang,Documentary|War,10:02 AM,10/06/2019,TwAds
+513,9.21,After Last Season,Drama|Thriller,6:47 AM,05/14/2019,GAds
+454,12.32,Click,Adventure|Comedy|Drama|Fantasy|Romance,7:58 AM,10/06/2019,Amazon
+297,4.14,Everything Is Illuminated,Comedy|Drama,7:18 PM,08/24/2019,TwAds
+992,6.77,Casino Royale,Action|Adventure|Comedy,12:43 AM,02/22/2019,Amazon
+426,4.92,"Man Who Loved Women, The",Comedy,12:27 AM,12/22/2019,FbAds-in
+542,3.15,Edge of the City,Drama|Film-Noir,1:14 PM,01/20/2019,GAds
+923,8.33,Derrida,Documentary,9:44 AM,03/05/2019,Amazon
+9,7.35,Valentine Road,Documentary,2:01 AM,09/04/2019,TwAds
+751,5.07,"Vanquished, The (I vinti)",Drama,8:23 AM,04/25/2019,TwAds
+274,14.97,Gone Fishin',Comedy,11:38 AM,12/30/2019,FbAds-fb
+225,3.54,Two Family House,Drama,10:41 PM,11/11/2019,GAds
+833,12.75,"Son of No One, The",Action|Crime|Thriller,12:59 PM,11/02/2019,GAds
+984,1.62,Kiss Me Deadly,Film-Noir,4:24 PM,02/04/2019,FbAds-fb
+134,10.28,Space Station 76,Comedy|Drama|Sci-Fi,8:01 AM,07/24/2019,Amazon
+368,12.8,Facing the Giants,Action|Drama,6:35 PM,03/13/2019,TwAds
+41,12.24,Sparrow (a.k.a. Cultured Bird) (Man jeuk),Drama|Romance,12:21 PM,10/07/2019,Amazon
+862,2.09,Tin Man,Adventure|Fantasy|Sci-Fi,10:49 AM,04/16/2019,GAds
+493,13.08,"Names of Love, The (Le nom des gens)",Comedy,2:01 AM,01/02/2019,FbAds-in
+172,11.84,Hamlet Goes Business (Hamlet liikemaailmassa),Comedy|Drama|Romance,7:18 PM,03/09/2019,TwAds
+287,7.28,Frankie and Johnny,Comedy,12:51 AM,05/19/2019,FbAds-in
+988,8.06,Kiss the Bride,Drama|Romance,7:40 AM,11/24/2019,GAds
+269,7.8,S.P.L.: Kill Zone (Saat po long),Action|Crime|Drama|Thriller,1:00 PM,06/02/2019,FbAds-in
+636,5.31,"Premature Burial, The",Horror,8:18 PM,11/21/2019,Amazon
+858,4.17,Me and Orson Welles,Drama,12:52 AM,03/29/2019,FbAds-in
+366,11.2,"Color of Friendship, The",Comedy|Drama,7:03 PM,07/12/2019,FbAds-in
+728,7.0,Hellsing Ultimate OVA Series,Action|Animation|Horror,10:57 PM,03/31/2019,TwAds
+101,10.56,Dudley Do-Right,Children|Comedy,9:05 PM,10/26/2019,FbAds-fb
+428,12.74,Doghouse,Comedy|Horror,5:11 PM,08/16/2019,TwAds
+468,13.59,Special 26,Crime|Drama|Thriller,9:33 AM,12/15/2019,Amazon
+474,11.27,T-Rex: Back to the Cretaceous,Adventure|Documentary|IMAX,8:38 PM,09/04/2019,Amazon
+147,4.59,About Time,Drama|Fantasy|Romance,1:10 PM,01/21/2019,GAds
+93,4.92,"Loves of Pharaoh, The (Das Weib des Pharao)",Drama|Romance|War,2:58 PM,03/03/2019,GAds
+541,1.7,Butter,Comedy,2:33 PM,10/02/2019,GAds
+717,6.62,"Ultimate Warrior, The",Action|Sci-Fi|Thriller,1:05 PM,09/05/2019,Amazon
+926,5.79,Dead Time: Kala,Crime|Fantasy|Film-Noir|Thriller,6:49 AM,02/27/2019,Amazon
+271,1.26,"Wankers, The (Les branleuses)",Documentary,2:58 PM,10/05/2019,GAds
+967,4.99,Hannie Caulder,Comedy|Crime|Drama|Western,7:09 AM,10/18/2019,GAds
+382,14.86,"Chorus, The (Hamsarayan)",Drama,12:30 PM,09/06/2019,GAds
+844,4.75,Loggerheads,Drama,6:40 PM,11/29/2019,Amazon
+198,1.07,Winter Kills,Drama,5:36 AM,01/09/2019,GAds
+844,9.05,Fans,Comedy,6:40 PM,06/05/2019,GAds
+236,6.25,Now!,Documentary,4:53 AM,03/17/2019,FbAds-fb
+561,5.95,A Walk in the Old City of Warsaw,Documentary,10:29 AM,07/02/2019,TwAds
+252,12.33,Sweet Karma,Crime|Drama|Thriller,5:31 AM,11/14/2019,TwAds
+431,7.06,Farsan,Comedy,6:39 AM,09/10/2019,Amazon
+621,1.27,Why Me?,Action|Adventure|Comedy|Crime,9:41 AM,10/13/2019,Amazon
+6,2.9,Bleak Moments,Comedy|Drama,1:31 AM,04/04/2019,FbAds-fb
+176,8.94,Whisper of the Heart (Mimi wo sumaseba),Animation|Drama|Romance,2:10 AM,10/26/2019,TwAds
+6,4.18,Cremaster 3,Drama,11:45 PM,03/25/2019,FbAds-in
+725,4.51,Set Me Free (Emporte-moi),Drama,1:07 AM,04/11/2019,Amazon
+450,5.76,It Started with Eve,Comedy|Musical|Romance,7:35 AM,10/31/2019,Amazon
+956,14.27,"Island, The",Adventure|Horror|Thriller,3:03 PM,08/18/2019,FbAds-fb
+755,3.24,Momma's Man,Drama,6:21 AM,12/05/2019,FbAds-in
+247,11.72,Speedy,Action|Comedy,1:47 PM,06/03/2019,Amazon
+794,13.18,Corvette Summer,Adventure|Comedy,10:05 PM,02/24/2019,TwAds
+865,10.8,"Evil Dead, The",Fantasy|Horror|Thriller,12:43 AM,05/30/2019,FbAds-in
+386,2.97,Sparrows Dance,Drama|Romance,4:25 AM,01/27/2019,FbAds-in
+661,11.82,Descendant of the Sun (Ri jie),Action|Adventure|Fantasy|Sci-Fi,9:19 PM,05/14/2019,TwAds
+919,7.94,Love Letter ,Drama|Romance,12:02 PM,11/18/2019,FbAds-fb
+673,4.3,Earth,Documentary,9:27 PM,03/16/2019,GAds
+193,5.14,"Generale Della Rovere, Il",Drama,3:51 PM,06/23/2019,FbAds-fb
+273,8.85,Executioners from Shaolin,Action|Drama,10:08 PM,04/28/2019,Amazon
+81,1.15,"Girl in the Café, The",Drama|Romance,10:46 AM,03/16/2019,FbAds-fb
+670,13.18,Coherence,Drama|Mystery|Sci-Fi|Thriller,9:14 PM,01/11/2019,GAds
+483,4.54,Hearts in Atlantis,Drama,6:16 AM,09/08/2019,TwAds
+416,12.73,Since Otar Left (Depuis qu'Otar est parti...),Drama,6:05 AM,09/16/2019,GAds
+820,11.18,Stakeout on Dope Street,Crime|Drama,2:59 AM,03/31/2019,TwAds
+397,3.21,Madame Curie,Drama,7:38 AM,08/26/2019,FbAds-fb
+986,3.01,"Terror's Advocate (Avocat de la terreur, L')",Documentary,4:19 AM,08/15/2019,FbAds-in
+99,9.79,Mad Dogs & Englishmen,Documentary|Musical,10:33 AM,03/01/2019,FbAds-in
+905,9.8,Twilight Zone: The Movie,Fantasy|Horror|Sci-Fi|Thriller,3:20 AM,04/24/2019,GAds
+800,8.76,Richard Pryor Here and Now,Comedy|Documentary,8:26 AM,11/18/2019,FbAds-fb
+882,4.84,Barbed Wire,Action|Comedy|Western,7:21 AM,04/28/2019,FbAds-fb
+567,7.14,Adelheid,Drama,7:43 AM,02/14/2019,FbAds-in
+258,3.14,Dating the Enemy,Comedy|Romance,10:51 AM,03/01/2019,GAds
+977,12.98,Sex and Breakfast,Comedy|Drama|Romance,8:33 PM,05/11/2019,FbAds-fb
+457,7.15,Love Finds Andy Hardy,Comedy|Romance,6:22 AM,10/28/2019,TwAds
+315,6.15,Endangered Species,Mystery|Sci-Fi|Thriller,2:08 AM,05/05/2019,FbAds-in
+806,5.45,I Was an Adventuress,Comedy|Crime,8:29 AM,03/26/2019,FbAds-in
+680,13.14,Loft (Rofuto),Horror,1:51 AM,09/08/2019,FbAds-fb
+196,1.54,"Lodger, The",Crime|Horror|Mystery|Thriller,10:10 AM,02/07/2019,TwAds
+224,11.11,Born to Raise Hell,Action,6:41 PM,12/18/2019,GAds
+433,3.09,Foxfire,Drama,5:32 AM,11/29/2019,TwAds
+268,11.9,Stealth,Action|Adventure|Sci-Fi|Thriller,6:41 AM,01/23/2019,GAds
+336,1.23,The Girl in a Swing,Drama|Romance,7:34 PM,04/19/2019,GAds
+849,9.38,"Merchant of Venice, The",Comedy|Drama,6:55 PM,01/19/2019,TwAds
+319,10.55,Louis Theroux: Law & Disorder,Documentary,10:04 AM,11/10/2019,GAds
+870,14.86,Repo! The Genetic Opera,Fantasy|Horror|Musical,8:33 PM,01/20/2019,FbAds-in
+194,12.96,The Pokrovsky Gates,Comedy|Drama|Musical|Romance,6:42 PM,01/30/2019,FbAds-fb
+650,12.44,Quarantine 2: Terminal,Horror|Mystery|Sci-Fi,4:43 AM,04/16/2019,TwAds
+769,1.27,Bitter Victory,Action|Drama|Romance|War,10:57 AM,12/19/2019,GAds
+655,8.37,"His Secret Life (a.k.a. Ignorant Fairies, The) (Fate ignoranti, Le)",Drama|Romance,12:08 PM,12/11/2019,FbAds-in
+116,1.55,Blankman,Comedy,12:19 PM,11/03/2019,FbAds-in
+761,14.7,Hawking,Documentary,2:26 AM,02/03/2019,FbAds-in
+300,12.73,Ararat,Drama|War,6:18 PM,12/09/2019,GAds
+596,4.78,I Knew It Was You: Rediscovering John Cazale,Documentary,4:54 AM,02/18/2019,TwAds
+171,8.05,Garage Olimpo,Drama,7:15 PM,10/01/2019,FbAds-in
+836,1.7,"Facing Windows (Finestra di fronte, La)",Drama|Romance,3:25 PM,10/07/2019,GAds
+647,12.31,Glenn Killing på Berns,Comedy,12:34 PM,12/04/2019,FbAds-fb
+406,3.11,"Most Hated Family in America, The",Documentary,9:04 PM,08/14/2019,GAds
+833,14.66,Firecreek,Western,9:34 PM,06/01/2019,FbAds-fb
+281,5.32,Joe and Max,Drama|War,12:33 PM,05/10/2019,TwAds
+9,3.08,"Ferryman, The",Fantasy|Horror|Thriller,1:11 PM,04/27/2019,TwAds
+843,10.75,Flamenco (de Carlos Saura),Musical,7:58 PM,08/31/2019,FbAds-fb
+567,4.84,Hick,Drama|Romance,12:29 PM,01/06/2019,FbAds-fb
+570,14.59,After Sex,Drama|Romance,3:49 PM,01/16/2019,FbAds-fb
+202,1.34,Windstruck (Nae yeojachingureul sogae habnida),Comedy|Crime|Drama,7:03 PM,04/07/2019,Amazon
+220,6.33,Mr. Thank You (Arigatô-san),Drama,5:08 PM,06/27/2019,GAds
+373,6.82,American Vagabond,Documentary,7:37 PM,04/12/2019,Amazon
+835,4.39,"Last Mogul, The",Documentary,4:15 PM,12/10/2019,TwAds
+420,13.66,Wrong Turn 2: Dead End,Action|Horror|Thriller,2:43 AM,08/04/2019,FbAds-fb
+452,8.99,Someone Like You,Comedy|Romance,4:12 AM,06/18/2019,TwAds
+950,7.93,Samurai Fiction (SF: Episode One),Action|Adventure|Comedy,8:14 AM,06/11/2019,Amazon
+417,3.57,"Fear, The",Horror,3:21 PM,12/17/2019,FbAds-fb
+574,9.94,"Pornographer, The (Le pornographe)",Drama,9:37 AM,04/19/2019,FbAds-in
+999,12.1,Amira & Sam,Comedy|Drama|Romance,1:02 AM,12/02/2019,Amazon
+702,4.28,"Little Night Music, A",Comedy|Musical|Romance,11:23 AM,11/27/2019,FbAds-in
+125,1.64,Antwone Fisher,Drama,4:05 PM,06/09/2019,TwAds
+994,4.14,Stunt Rock,Action|Drama|Romance,3:13 AM,11/14/2019,GAds
+975,3.41,Vampire Effect (The Twins Effect) (Chin gei bin),Action|Comedy|Fantasy|Horror,1:54 AM,01/05/2019,FbAds-in
+219,8.25,Comet,Comedy|Drama|Romance|Sci-Fi,9:30 PM,11/22/2019,GAds
+83,14.8,Sons and Lovers,Drama,4:43 PM,09/21/2019,TwAds
+231,10.04,"Mambo Kings, The",Drama|Musical,3:40 AM,12/01/2019,GAds
+601,7.69,"Most Dangerous Man in America: Daniel Ellsberg and the Pentagon Papers, The",Documentary,7:20 PM,07/02/2019,Amazon
+921,14.8,Love and Pigeons,Comedy|Romance,11:15 PM,02/20/2019,GAds
+522,1.52,The Floating Castle,Comedy|Drama,1:24 PM,08/27/2019,FbAds-in
+30,12.88,"Blue Lagoon, The",Adventure|Drama|Romance,5:26 AM,10/09/2019,TwAds
+838,4.74,"Free Soul, A",Drama,2:04 PM,02/22/2019,FbAds-in
+999,2.49,Night of the Living Dorks,Comedy|Horror,12:36 PM,05/14/2019,Amazon
+234,11.14,"Toxic Avenger, The",Comedy|Horror,7:45 PM,10/31/2019,FbAds-in
+478,12.17,"Bug's Life, A",Adventure|Animation|Children|Comedy,8:36 PM,09/13/2019,FbAds-fb
+90,12.65,2012: Supernova,Action|Sci-Fi,4:11 PM,06/09/2019,FbAds-in
+836,7.62,Days of Wine and Roses,Drama,1:04 PM,07/10/2019,Amazon
+672,4.6,"Enforcer, The",Crime,5:06 PM,08/04/2019,Amazon
+212,14.66,"Animatrix, The",Action|Animation|Drama|Sci-Fi,2:43 PM,12/12/2019,Amazon
+584,4.22,Castles in the Sky,Drama,8:28 AM,11/05/2019,FbAds-in
+286,8.98,Five Days One Summer,Drama,3:32 PM,06/01/2019,FbAds-in
+682,9.14,Any Given Sunday,Drama,12:19 PM,12/23/2019,FbAds-in
+268,12.3,Terumae romae (Thermae Romae),Comedy|Sci-Fi,3:28 AM,07/09/2019,Amazon
+724,5.83,Newsies,Children|Musical,7:07 AM,04/28/2019,Amazon
+419,14.78,Captain Mike Across America (Slacker Uprising),Documentary,3:55 PM,05/07/2019,TwAds
+155,8.7,"Shoot First, Die Later",Action|Crime,7:50 PM,04/04/2019,TwAds
+304,4.24,Hotel,Drama,1:35 AM,09/20/2019,TwAds
+968,3.71,Design for Scandal,Comedy|Romance,7:40 PM,08/12/2019,GAds
+145,10.55,That's The Way I Like It (a.k.a. Forever Fever),Comedy|Drama|Romance,9:22 AM,01/09/2019,FbAds-in
+399,12.69,"Skeleton Twins, The",Drama,5:04 AM,07/18/2019,FbAds-in
+227,3.6,I Accuse,Drama|Horror|Sci-Fi|War,9:51 AM,09/22/2019,FbAds-fb
+706,10.16,Buddy Buddy,Comedy,9:37 PM,12/04/2019,GAds
+707,12.22,Meu Passado Me Condena: O Filme,Comedy|Romance,12:18 PM,02/23/2019,TwAds
+458,5.48,"Jails, Hospitals & Hip-Hop",Comedy|Documentary|Drama,7:16 AM,01/17/2019,Amazon
+339,7.15,"Redes (Fishermen's Nets) (Wave, The)",Drama,12:29 PM,10/07/2019,FbAds-fb
+80,1.05,Buena Vista Social Club,Documentary|Musical,6:11 PM,01/31/2019,FbAds-fb
+111,10.68,Norma Rae,Drama,1:23 AM,01/09/2019,FbAds-fb
+356,10.58,Werner - Gekotzt wird später,Animation|Comedy,2:41 AM,07/05/2019,FbAds-fb
+766,14.04,Phone (Pon),Drama|Horror|Mystery|Sci-Fi|Thriller,1:26 PM,02/06/2019,GAds
+887,11.07,Cherry Crush,Drama|Thriller,1:07 PM,06/29/2019,Amazon
+115,12.01,Rent,Drama|Musical|Romance,9:31 AM,08/25/2019,GAds
+596,3.86,Faces of Death 5,Documentary|Horror,2:13 AM,03/07/2019,GAds
+661,7.57,"300 Spartans, The",Adventure|Drama|War,11:52 AM,10/19/2019,TwAds
+408,1.47,Vincent: A Life in Color,Documentary,4:53 AM,02/24/2019,FbAds-in
+995,1.94,To Be King (Koning van Katoren),Adventure,10:52 AM,05/08/2019,TwAds
+902,2.8,"Education of Mohammad Hussein, The",Documentary,11:44 AM,09/02/2019,TwAds
+717,2.04,Easy Money 2 (Snabba cash II),Action|Crime|Drama,8:47 PM,03/23/2019,TwAds
+190,5.34,Three Brothers (Tre fratelli),Drama,7:29 PM,12/26/2019,FbAds-in
+299,14.67,Curse of Chucky (Child's Play 6),Horror|Thriller,7:40 PM,11/02/2019,Amazon
+778,10.65,Mikey and Nicky,Drama,11:00 AM,07/30/2019,FbAds-fb
+886,10.21,"Cocoanuts, The",Comedy|Musical,4:53 PM,05/16/2019,Amazon
+759,3.89,Dead Again,Mystery|Romance|Thriller,12:32 PM,10/03/2019,FbAds-fb
+758,11.61,Return of the Secaucus 7,Drama,2:26 PM,02/25/2019,FbAds-in
+419,2.94,Army Brats (Schatjes!),Children|Comedy,5:08 AM,10/21/2019,GAds
+158,11.79,George Carlin: Life Is Worth Losing,Comedy,3:52 PM,04/09/2019,FbAds-in
+844,10.46,Lightspeed,Action|Fantasy|Sci-Fi,7:25 PM,06/13/2019,TwAds
+373,8.0,"Last Ferry, The (Ostatni prom)",Drama,1:57 AM,12/14/2019,Amazon
+70,4.43,One of Our Aircraft Is Missing,Action|Drama|War,3:41 PM,04/25/2019,Amazon
+196,13.05,Brannigan,Action,3:08 AM,06/03/2019,FbAds-fb
+115,8.83,Rock School,Documentary,4:49 AM,02/08/2019,GAds
+750,3.62,Repo! The Genetic Opera,Fantasy|Horror|Musical,7:03 PM,09/30/2019,TwAds
+52,8.64,Pokémon the Movie: Black - Victini and Reshiram,Animation,9:57 PM,11/14/2019,FbAds-in
+200,4.74,Game of Werewolves,Comedy|Horror,12:25 PM,03/03/2019,Amazon
+565,13.26,Stonehearst Asylum,Thriller,5:35 AM,02/01/2019,FbAds-in
+484,4.99,"Devil and Daniel Johnston, The",Documentary,4:22 PM,06/03/2019,TwAds
+363,8.16,In the Name of the King: A Dungeon Siege Tale,Action|Adventure|Fantasy,3:51 PM,03/26/2019,FbAds-in
+4,11.03,"Drowning Pool, The",Mystery|Thriller,4:28 PM,07/19/2019,Amazon
+517,4.68,John Q,Crime|Drama|Thriller,5:48 AM,08/08/2019,FbAds-in
+499,5.07,Black Girl (La noire de...),Drama,9:43 AM,09/10/2019,Amazon
+224,3.56,"Bunch Of Amateurs, A",Comedy,2:42 AM,05/28/2019,GAds
+465,3.98,Black Lightning (Chernaya Molniya),Action|Adventure|Sci-Fi,6:07 AM,05/18/2019,Amazon
+296,2.02,Jakob the Liar,Drama,8:11 AM,05/10/2019,Amazon
+968,1.7,My Mother (Ma mère),Drama,12:39 PM,07/31/2019,FbAds-in
+807,9.76,Dune,Drama|Fantasy|Sci-Fi,8:36 AM,06/13/2019,GAds
+851,1.29,Dead Men Don't Wear Plaid,Comedy|Crime|Thriller,1:50 AM,06/01/2019,FbAds-fb
+472,8.86,Went the Day Well?,Thriller|War,7:31 PM,03/10/2019,GAds
+255,7.58,Artifact,Documentary,12:13 PM,11/11/2019,FbAds-in
+641,4.3,Frogs,Drama|Horror|Mystery|Thriller,5:33 AM,09/25/2019,TwAds
+107,5.2,"Fantastic Four, The",Action|Adventure|Fantasy|Sci-Fi,1:18 PM,02/18/2019,TwAds
+915,6.59,"Man Who Would Be King, The",Adventure|Drama,2:49 AM,06/14/2019,GAds
+489,5.92,"Girl, Interrupted",Drama,10:00 PM,08/22/2019,TwAds
+73,5.72,Immensee,Drama,7:28 AM,11/21/2019,GAds
+408,8.03,Tomie: Unlimited,Horror,9:19 AM,10/09/2019,Amazon
+956,8.35,Four Nights of a Dreamer (Quatre nuits d'un rêveur),Drama|Romance,1:10 PM,06/06/2019,GAds
+632,2.12,Stuck ,Documentary,2:55 PM,03/30/2019,Amazon
+773,9.69,Bela Kiss: Prologue,Horror|Mystery|Thriller,8:31 PM,05/21/2019,GAds
+302,4.38,"Apostle, The",Drama,5:27 PM,09/12/2019,FbAds-fb
+613,5.24,"Children of Glory (Szabadság, szerelem)",Drama|Romance|War,11:05 AM,08/02/2019,Amazon
+8,9.47,"Ranma ½: Big Trouble in Nekonron, China (Ranma ½: Chûgoku Nekonron daikessen! Okite yaburi no gekitô hen)",Animation|Comedy,8:37 AM,08/17/2019,FbAds-in
+260,11.72,"Love, Rosie",Comedy|Romance,7:20 AM,04/07/2019,TwAds
+382,1.77,Madame Bovary,Drama|Romance,1:13 PM,12/29/2019,FbAds-fb
+177,6.64,Full Tilt Boogie,Documentary,7:12 AM,09/16/2019,FbAds-in
+934,10.95,Wilson,Drama,2:15 AM,06/29/2019,FbAds-in
+94,4.01,"Maltese Falcon, The (a.k.a. Dangerous Female)",Mystery,4:00 PM,06/01/2019,Amazon
+389,11.8,Adam's Apples (Adams æbler),Comedy|Drama,11:38 AM,06/24/2019,Amazon
+344,3.83,Scanners III: The Takeover (Scanner Force),Action|Horror|Sci-Fi,4:23 PM,02/19/2019,Amazon
+83,13.14,The Hanoi Hilton,Drama|War,4:09 PM,11/03/2019,TwAds
+628,4.31,ABC Africa,Documentary,3:58 PM,09/29/2019,FbAds-fb
+941,1.68,Save Me,Drama,2:39 PM,10/17/2019,FbAds-fb
+980,14.66,Return to Lonesome Dove,Drama|Western,11:19 PM,06/05/2019,GAds
+394,4.6,Straw Dogs,Drama|Thriller,7:00 AM,03/20/2019,TwAds
+851,12.83,Belle Starr,Western,4:39 AM,09/27/2019,GAds
+456,4.22,Strategic Air Command,Action|Drama,5:01 PM,05/24/2019,FbAds-fb
+575,8.85,Fist of the North Star,Action|Thriller,6:26 AM,08/19/2019,GAds
+414,11.1,Dragon Ball Z: Battle of Gods,Action|Animation|Fantasy|IMAX,5:27 PM,10/21/2019,FbAds-fb
+610,11.82,Lewis Black: Stark Raving Black,Comedy,4:45 AM,06/03/2019,FbAds-fb
+90,14.06,Stuff and Dough (Marfa si banii),Drama,11:18 PM,12/14/2019,Amazon
+673,7.34,5 Days of War,Action|Drama|War,2:38 AM,05/22/2019,FbAds-fb
+387,11.23,"Battle of the Sexes, The",Comedy,12:26 PM,11/18/2019,GAds
+634,10.42,Big Miracle,Drama|Romance,9:17 AM,10/16/2019,GAds
+311,10.43,"Normal Heart, The",Drama,3:52 AM,07/16/2019,FbAds-in
+756,1.02,Midway,Drama|War,9:01 AM,08/08/2019,FbAds-in
+485,1.34,Kisses (Kuchizuke),Drama|Romance,5:43 AM,04/29/2019,TwAds
+408,11.61,City for Conquest,Drama,6:09 PM,10/26/2019,GAds
+571,7.08,Dickie Roberts: Former Child Star,Comedy,5:32 AM,08/06/2019,TwAds
+704,1.96,Red Sorghum (Hong gao liang),Drama|War,12:39 PM,10/08/2019,TwAds
+834,1.59,Trance,Crime|Thriller,7:43 AM,11/11/2019,GAds
+907,11.28,San Antonio,Western,10:24 PM,02/22/2019,FbAds-fb
+258,2.01,"Godson, The",Comedy|Crime,8:44 PM,09/08/2019,Amazon
+46,9.09,"New Jean-Claude, The (Le nouveau Jean-Claude)",Comedy|Romance,6:53 AM,01/13/2019,FbAds-in
+955,2.94,"Brandon Teena Story, The",Documentary,7:18 PM,04/01/2019,FbAds-in
+124,3.89,"Good, the Bad and the Ugly, The (Buono, il brutto, il cattivo, Il)",Action|Adventure|Western,12:13 PM,12/03/2019,TwAds
+898,14.92,Two Ninas,Comedy|Romance,4:37 PM,02/20/2019,FbAds-in
+409,12.91,Wild About Harry,Comedy|Drama|Romance,12:57 PM,04/27/2019,GAds
+936,10.95,"Land Girls, The",Drama|War,8:30 AM,10/02/2019,GAds
+869,3.67,Never Forever,Drama|Romance,4:07 PM,04/23/2019,Amazon
+744,14.19,American Pastime,Drama|Romance,3:33 AM,07/29/2019,Amazon
+50,13.8,Godzilla vs. Gigan (Chikyû kogeki meirei: Gojira tai Gaigan),Action|Adventure|Horror,9:34 AM,04/22/2019,FbAds-in
+223,11.62,Bolt,Action|Adventure|Animation|Children|Comedy,9:42 PM,11/21/2019,GAds
+665,9.77,"Glass House, The",Thriller,8:28 AM,08/11/2019,FbAds-in
+106,6.68,"Wake in Providence, A",Comedy,6:09 PM,10/10/2019,FbAds-fb
+706,7.65,Strange Bedfellows,Comedy,5:03 AM,04/03/2019,TwAds
+26,13.68,Ladies in Lavender,Comedy|Drama|Romance,8:44 AM,05/12/2019,GAds
+518,13.48,Will It Snow For Christmas? (Y'aura-t-il de la neige à Noël?),Drama,1:48 PM,12/14/2019,FbAds-fb
+299,1.77,Cats & Dogs,Children|Comedy,1:33 AM,10/14/2019,GAds
+807,3.59,Stuart Saves His Family,Comedy,3:49 AM,06/16/2019,TwAds
+775,9.67,Trouble in Mind,Crime|Drama,12:55 AM,04/09/2019,GAds
+932,14.75,Young Doctors in Love,Comedy,12:44 AM,07/07/2019,Amazon
+594,6.99,War Stories,Documentary,5:44 PM,06/26/2019,Amazon
+978,3.74,"Millions Game, The (Das Millionenspiel)",Action|Drama|Sci-Fi|Thriller,10:13 AM,05/18/2019,Amazon
+237,14.73,Two Brothers (Deux frères),Adventure|Children|Drama,10:24 PM,10/27/2019,GAds
+163,1.1,Jonah Who Will Be 25 in the Year 2000 (Jonas qui aura 25 ans en l'an 2000),Comedy,1:10 PM,07/26/2019,Amazon
+679,5.0,¡Three Amigos!,Comedy|Western,12:37 AM,03/14/2019,FbAds-fb
+796,14.33,Kenny,Comedy,1:38 PM,11/20/2019,FbAds-fb
+345,13.27,Wild Oranges,Drama|Romance,2:11 PM,03/30/2019,GAds
+372,7.18,Such Hawks Such Hounds,Documentary,7:20 AM,07/28/2019,TwAds
+690,6.51,Stagecoach,Action|Drama|Romance|Western,6:12 AM,10/10/2019,FbAds-fb
+441,2.48,Demolition Man,Action|Adventure|Sci-Fi,4:06 PM,08/20/2019,GAds
+929,12.7,Hudson Hawk,Action|Adventure|Comedy,9:29 PM,06/04/2019,Amazon
+347,4.13,Fled,Action|Adventure,12:49 AM,11/09/2019,FbAds-fb
+305,7.52,Woyzeck,Drama,7:10 AM,10/04/2019,FbAds-fb
+47,1.14,Crashing,Drama,3:07 PM,06/07/2019,FbAds-fb
+196,7.99,Lady Death,Action|Animation|Horror,2:12 AM,04/21/2019,Amazon
+239,7.63,Class of Nuke 'Em High,Comedy|Horror,2:54 AM,09/09/2019,GAds
+34,10.38,97 Percent True,Documentary,5:40 PM,06/08/2019,Amazon
+399,8.91,Samsara,Adventure|Drama|Romance,1:46 AM,07/03/2019,FbAds-fb
+781,2.24,Staten Island,Crime|Drama,4:32 PM,04/15/2019,FbAds-in
+497,10.31,Somm,Documentary,9:56 AM,07/26/2019,TwAds
+508,6.86,Cocaine Cowboys II: Hustlin' With the Godmother,Crime|Documentary,1:32 PM,05/03/2019,FbAds-in
+693,7.94,What About Dick?,Comedy,8:33 PM,10/19/2019,FbAds-fb
+517,2.02,Off Beat,Drama|Romance,9:57 PM,07/17/2019,GAds
+743,8.98,"Last Days of Pompeii, The",Adventure|Drama,5:31 PM,03/05/2019,GAds
+229,12.45,"Countess, The",Drama|Thriller,4:58 AM,08/01/2019,FbAds-in
+365,1.91,Here and Elsewhere,Documentary,9:18 PM,06/11/2019,FbAds-fb
+880,10.04,"Man with One Red Shoe, The",Comedy|Thriller,4:40 PM,12/20/2019,FbAds-fb
+953,12.68,"Cage aux Folles, La",Comedy,10:16 AM,04/11/2019,GAds
+379,6.94,Love Crazy,Comedy,5:36 PM,09/29/2019,FbAds-fb
+968,9.43,High School Hellcats,Crime|Drama,5:51 PM,01/06/2019,TwAds
+577,13.07,Flannel Pajamas,Romance,7:05 PM,10/10/2019,GAds
+828,14.28,Violet Tendencies,Comedy|Drama|Romance,1:15 AM,03/13/2019,TwAds
+823,12.01,The Stanford Prison Experiment,Drama|Thriller,10:52 PM,03/23/2019,FbAds-fb
+757,7.97,My Night At Maud's (Ma Nuit Chez Maud),Comedy|Drama|Romance,5:02 AM,06/29/2019,TwAds
+53,5.21,"Tree of Wooden Clogs, The (L'albero degli zoccoli)",Drama,9:10 PM,05/20/2019,TwAds
+453,1.4,Gallipoli,Drama|War,9:25 AM,08/20/2019,FbAds-fb
+212,8.15,Cowboy Bebop,Action|Adventure|Animation|Crime|Sci-Fi,9:07 AM,05/13/2019,GAds
+653,10.39,True Story,Drama|Mystery|Thriller,10:08 PM,11/09/2019,FbAds-fb
+155,10.79,Talaash,Crime|Drama|Mystery,7:45 PM,05/10/2019,Amazon
+621,4.54,Dead Fury,Action|Animation|Comedy|Horror,12:18 PM,09/11/2019,GAds
+537,10.91,Laila,Drama|Romance,12:17 AM,03/07/2019,FbAds-in
+753,13.46,The Dark Matter of Love,Documentary,9:42 PM,09/10/2019,FbAds-fb
+332,5.99,Frogs for Snakes,Comedy|Film-Noir|Thriller,7:21 PM,01/08/2019,Amazon
+732,7.45,Saturday Night Fever,Comedy|Drama|Romance,12:30 PM,12/23/2019,Amazon
+669,7.19,I'll Be Seeing You,Drama,7:19 AM,04/16/2019,FbAds-fb
+512,11.96,Shakespeare's Globe: Henry V,Drama,9:25 PM,01/05/2019,FbAds-fb
+873,5.26,Christopher Columbus: The Discovery,Adventure,7:11 PM,04/06/2019,TwAds
+933,3.88,Antoine and Colette (Antoine et Colette),Comedy|Drama,1:26 AM,12/13/2019,FbAds-in
+558,12.59,"Mind Reader, The",Drama|Romance,3:04 AM,01/09/2019,TwAds
+260,12.49,Gigante,Comedy|Drama,5:25 PM,01/07/2019,GAds
+807,12.82,Tin Toy,Animation|Children,10:49 AM,10/29/2019,TwAds
+279,4.33,James Dean Remembered,Documentary,3:16 AM,06/13/2019,TwAds
+850,13.87,A.I. Artificial Intelligence,Adventure|Drama|Sci-Fi,12:47 AM,05/29/2019,TwAds
+104,6.19,Parade,Children|Comedy,4:44 AM,02/10/2019,FbAds-in
+566,7.85,"Green Slime, The",Drama|Horror|Sci-Fi,6:27 PM,09/28/2019,GAds
+188,4.99,"Invisible Woman, The",Comedy|Romance|Sci-Fi,9:29 AM,11/23/2019,Amazon
+262,9.23,"Wonderful, Horrible Life of Leni Riefenstahl, The (Macht der Bilder: Leni Riefenstahl, Die)",Documentary,11:51 AM,01/15/2019,TwAds
+405,5.17,I Shot Andy Warhol,Drama,11:35 AM,08/05/2019,GAds
+296,10.69,"Scarlet Letter, The (Der scharlachrote Buchstabe)",Drama,3:28 PM,11/08/2019,FbAds-fb
+478,7.6,Mystics in Bali (Leák),Fantasy|Horror|Thriller,6:21 PM,05/21/2019,FbAds-in
+637,1.67,Midnight Run,Action|Comedy|Crime|Thriller,3:13 PM,08/18/2019,Amazon
+435,10.04,Garden State,Comedy|Drama|Romance,10:15 PM,11/27/2019,Amazon
+445,4.21,Pump Up the Volume,Comedy|Drama,5:49 AM,03/19/2019,Amazon
+45,4.83,Tokyo Sonata,Drama,8:08 AM,05/28/2019,GAds
+315,6.47,Hanging Up,Comedy|Drama,12:38 PM,11/25/2019,TwAds
+446,6.29,Cats,Musical,7:16 PM,05/27/2019,TwAds
+4,8.88,Blazing Guns,Adventure|Western,2:36 AM,04/02/2019,TwAds
+839,12.16,Sky Murder,Action|Adventure|Crime|Mystery|Thriller,4:49 AM,09/24/2019,TwAds
+987,14.34,Chisum,Western,8:34 PM,04/27/2019,GAds
+460,9.61,Runaway Jury,Drama|Thriller,12:31 AM,03/10/2019,TwAds
+237,4.43,Arthur Newman,Comedy|Drama,1:37 PM,06/02/2019,FbAds-fb
+429,10.52,"Oh, God! Book II",Comedy,7:16 AM,10/30/2019,FbAds-in
+588,12.61,Human Failure (Menschliches Versagen),Documentary,8:46 AM,01/15/2019,Amazon
+334,14.46,Heavy Metal in Baghdad,Documentary|Musical|War,6:39 PM,06/26/2019,FbAds-fb
+970,7.79,Times Square,Drama,5:47 PM,08/21/2019,Amazon
+851,13.79,The Visitor,Horror|Sci-Fi,3:12 AM,09/24/2019,Amazon
+143,13.09,Godzilla: Final Wars (Gojira: Fainaru uôzu),Action|Adventure|Fantasy|Sci-Fi,10:05 AM,12/30/2019,TwAds
+254,14.73,Something Ventured,Documentary,3:54 PM,02/02/2019,Amazon
+215,2.16,Drunken Tai Chi (Siu taai gik),Action|Comedy,11:43 AM,01/09/2019,Amazon
+609,14.81,Inside Llewyn Davis,Drama,7:10 PM,10/15/2019,FbAds-fb
+129,11.78,Santa's Pocket Watch,(no genres listed),9:28 AM,02/15/2019,FbAds-fb
+877,8.19,Wonderland,Comedy|Documentary,8:48 PM,09/19/2019,FbAds-in
+757,12.69,"Weather Underground, The",Documentary,11:00 AM,12/17/2019,FbAds-in
+789,4.46,Emma,Comedy|Drama|Romance,2:00 AM,11/27/2019,TwAds
+934,3.66,Kingpin,Comedy,5:16 AM,10/16/2019,TwAds
+917,3.54,Tomorrow We Move (Demain on déménage),Comedy,5:09 AM,02/27/2019,TwAds
+255,14.53,Flow: For Love of Water,Documentary,2:37 PM,10/25/2019,FbAds-fb
+688,4.68,C.R.A.Z.Y.,Drama,10:58 PM,02/14/2019,GAds
+483,11.21,Frankie Starlight,Drama|Romance,2:11 PM,09/13/2019,TwAds
+576,7.29,"Life is a Bed of Roses (Vie est un roman, La)",Fantasy|Musical,11:51 AM,02/09/2019,TwAds
+726,3.87,Suicide Club,Adventure|Comedy|Drama,10:55 PM,01/14/2019,GAds
+364,9.24,So Much So Fast,Documentary,5:03 AM,12/02/2019,GAds
+652,7.94,Ploy,Drama,9:26 AM,12/22/2019,Amazon
+180,3.44,Tormento,Drama,10:40 PM,06/14/2019,TwAds
+208,1.3,Seven Girlfriends,Comedy|Romance,6:39 AM,11/17/2019,Amazon
+205,2.07,Sullivan's Travels,Adventure|Comedy|Romance,3:02 AM,10/05/2019,GAds
+878,9.15,"Smell of Camphor, Fragrance of Jasmine (Booye kafoor, atre yas)",Drama,9:39 AM,09/13/2019,Amazon
+493,13.02,My Love Has Been Burning (Waga koi wa moenu),Drama,9:52 PM,03/22/2019,GAds
+149,7.63,Razorback,Horror|Thriller,4:56 PM,02/14/2019,GAds
+231,4.47,"Open Road, The",Comedy|Drama,7:53 AM,06/02/2019,FbAds-fb
+719,6.93,I Now Pronounce You Chuck and Larry,Comedy|Romance,6:26 PM,05/13/2019,TwAds
+530,11.78,Snakes and Earrings (Hebi ni piasu),Drama|Thriller,4:57 AM,09/20/2019,GAds
+934,14.19,Lionheart,Action,5:45 AM,08/24/2019,FbAds-in
+551,6.63,"ChubbChubbs!, The",Animation|Comedy|Sci-Fi,8:50 AM,10/29/2019,FbAds-fb
+181,1.14,Amityville II: The Possession,Horror,6:30 AM,11/10/2019,FbAds-in
+791,9.1,Suzanne's Career (La carrière de Suzanne),Romance,6:27 PM,09/13/2019,Amazon
+791,12.73,Attack on the Iron Coast,Action|Drama|War,2:15 PM,03/24/2019,GAds
+526,12.03,King of Devil's Island (Kongen av Bastøy) ,Action|Drama,8:25 AM,07/02/2019,FbAds-fb
+941,7.21,Who's That Knocking at My Door?,Drama,2:01 PM,02/24/2019,FbAds-in
+429,13.67,"Plough and the Stars, The",Drama,4:57 PM,02/25/2019,Amazon
+632,14.53,Zero Dark Thirty,Action|Drama|Thriller,12:49 PM,10/30/2019,GAds
+285,4.78,"Autumn Heart, The",Drama,1:58 PM,11/18/2019,Amazon
+223,3.88,Indiana Jones and the Kingdom of the Crystal Skull,Action|Adventure|Comedy|Sci-Fi,6:09 PM,12/09/2019,GAds
+470,6.37,Looking for Hortense (Cherchez Hortense) ,Drama,3:48 PM,06/16/2019,FbAds-fb
+306,8.53,Bride Flight,Drama,12:28 PM,01/07/2019,FbAds-fb
+732,7.6,Emerald Cowboy,Documentary|Drama,1:13 AM,12/01/2019,FbAds-in
+870,13.26,"Regular Lovers (Amants réguliers, Les)",Drama,1:01 PM,05/02/2019,Amazon
+232,6.18,Callas Forever,Drama,10:02 PM,11/09/2019,FbAds-in
+926,9.16,"Zero Years, The",Drama,4:07 PM,07/02/2019,FbAds-in
+426,7.12,Men in Black (a.k.a. MIB),Action|Comedy|Sci-Fi,11:59 AM,06/24/2019,TwAds
+974,4.26,"Love and Anarchy (Film d'amore e d'anarchia, ovvero 'stamattina alle 10 in via dei Fiori nella nota casa di tolleranza...')",Comedy|Drama|Romance,7:28 AM,10/30/2019,GAds
+29,9.15,Four Men and a Prayer,Adventure|Mystery,7:06 PM,03/11/2019,FbAds-in
+873,10.81,Charlie Brown's Christmas Tales,Animation|Children|Comedy,12:27 PM,10/16/2019,FbAds-in
+458,5.58,Candyman: Farewell to the Flesh,Fantasy|Horror,12:58 AM,10/24/2019,FbAds-in
+703,10.32,Yellow,Comedy|Drama,11:34 AM,05/17/2019,FbAds-fb
+430,12.23,Mantrap,Comedy,10:31 PM,12/02/2019,Amazon
+359,6.82,Muppets From Space,Children|Comedy,5:31 PM,11/06/2019,FbAds-fb
+377,7.84,Quai des Orfèvres (Jenny Lamour),Crime|Drama,9:50 PM,08/05/2019,FbAds-in
+97,4.09,Saving Santa,Animation|Children|Comedy,5:12 AM,02/23/2019,GAds
+577,1.36,Sins of My Father,Documentary,10:33 AM,11/11/2019,TwAds
+488,5.43,Quiz Show,Drama,11:15 PM,04/25/2019,FbAds-fb
+407,4.3,"Man Who Shot Liberty Valance, The",Crime|Drama|Western,5:01 AM,01/22/2019,FbAds-fb
+388,8.29,That Guy... Who Was in That Thing,Documentary,3:04 PM,11/11/2019,FbAds-in
+970,3.1,Strange Brew,Comedy,4:08 PM,02/28/2019,Amazon
+841,6.84,Intervista,Comedy|Drama,2:18 AM,04/25/2019,GAds
+831,9.56,Libel,Drama,5:00 AM,12/16/2019,FbAds-fb
+232,10.55,Tour De Force (Hin und weg),Drama,9:14 PM,03/23/2019,Amazon
+817,5.55,Newlyweds,Drama,11:46 AM,06/16/2019,FbAds-fb
+757,6.26,"Creature Wasn't Nice, The (a.k.a. Naked Space) (a.k.a. Spaceship)",Comedy|Horror|Musical|Sci-Fi,11:08 PM,05/20/2019,GAds
+121,1.4,"Young and the Damned, The (Olvidados, Los)",Crime|Drama,2:10 AM,02/22/2019,FbAds-in
+648,4.29,Rose Red,Horror|Mystery|Thriller,7:44 PM,08/17/2019,GAds
+648,12.61,Tyler Perry's The Family That Preys,Drama,1:45 PM,03/28/2019,Amazon
+355,2.62,Thursday,Action|Crime|Thriller,9:37 PM,08/07/2019,Amazon
+415,3.34,"Little Mermaid 2: Return to the Sea, The",Animation|Children|Fantasy|Musical,1:20 AM,02/01/2019,FbAds-fb
+939,2.9,Lady Death,Action|Animation|Horror,9:38 AM,02/04/2019,FbAds-in
+730,2.06,"Yards, The",Crime|Drama,5:07 AM,03/16/2019,Amazon
+55,9.62,Male Domination,Documentary,5:13 AM,05/22/2019,Amazon
+984,12.18,Bouncing Babies,Comedy,7:07 AM,12/08/2019,GAds
+953,4.96,Amityville: Dollhouse,Horror,4:01 AM,01/02/2019,FbAds-in
+892,3.96,We Were Soldiers,Action|Drama|War,10:26 PM,08/27/2019,FbAds-in
+694,7.81,Mary Reilly,Drama|Horror|Thriller,7:38 AM,12/19/2019,FbAds-fb
+648,1.44,"Stepford Wives, The",Comedy|Fantasy|Thriller,4:59 AM,01/14/2019,FbAds-in
+204,2.01,No Time for Nuts,Adventure|Animation|Comedy,12:17 PM,11/03/2019,Amazon
+565,10.74,"Laugh, Clown, Laugh",Drama,4:15 AM,06/06/2019,TwAds
+425,12.16,"Longest Yard, The",Comedy|Drama,9:01 PM,12/29/2019,TwAds
+880,7.63,Shadowing the Third Man,Documentary,5:50 PM,08/16/2019,GAds
+872,9.93,Attack of the 50ft Cheerleader,Comedy,5:13 PM,08/04/2019,GAds
+207,2.75,"Sniper, The",Crime|Drama|Film-Noir|Thriller,5:33 AM,06/22/2019,GAds
+672,12.87,Madam Satan,Comedy|Musical|Romance,7:42 PM,04/26/2019,GAds
+566,2.33,Attack on Leningrad,Drama|War,8:12 PM,11/02/2019,GAds
+171,1.39,The Rise,Crime|Drama|Thriller,5:53 PM,07/08/2019,FbAds-fb
+678,12.9,Rabbit Test,Comedy,9:18 AM,10/30/2019,FbAds-in
+672,5.04,"Hands of Orlac, The (Orlacs Hände)",Crime|Horror,6:04 PM,08/22/2019,Amazon
+280,1.47,"Gods Must Be Crazy III, The (a.k.a. Crazy Safari) (Fei zhou he shang)",Comedy|Fantasy,3:45 AM,07/29/2019,Amazon
+427,3.84,Take Care of My Cat (Goyangileul butaghae),Drama,6:11 AM,07/19/2019,GAds
+945,2.39,Palindromes,Adventure|Comedy|Drama,4:56 AM,08/25/2019,GAds
+828,3.23,"Betrayed (True and the Brave, The)",Drama|Romance|Thriller|War,2:10 PM,08/12/2019,Amazon
+312,5.98,"Monster Squad, The",Adventure|Comedy|Horror,4:20 PM,10/13/2019,Amazon
+719,6.72,De nieuwe Wildernis,Documentary,2:40 AM,06/02/2019,Amazon
+851,6.14,"Scent of Green Papaya, The (Mùi du du xhan - L'odeur de la papaye verte)",Drama,4:02 PM,09/09/2019,FbAds-fb
+136,7.62,Countdown to Zero,Documentary,4:51 AM,05/29/2019,FbAds-in
+615,10.65,Roustabout,Drama|Musical|Romance,5:44 AM,03/25/2019,Amazon
+159,12.36,Choke,Documentary,1:48 AM,10/14/2019,TwAds
+271,3.26,Animal Kingdom,Crime|Drama,2:24 PM,11/22/2019,Amazon
+442,11.8,Sixty Six,Comedy|Drama,9:09 PM,09/08/2019,TwAds
+38,3.06,Valentine Road,Documentary,1:24 AM,05/29/2019,FbAds-fb
+579,14.92,"Glass Shield, The",Crime|Drama,3:03 PM,06/07/2019,TwAds
+212,9.28,V,Drama|Sci-Fi,5:56 AM,07/30/2019,FbAds-fb
+984,10.8,Frozen Hell (Jäämarssi) ,Documentary|War,2:27 PM,10/09/2019,GAds
+324,12.57,Dante's Peak,Action|Thriller,7:53 PM,03/31/2019,FbAds-in
+949,7.42,"Amelie (Fabuleux destin d'Amélie Poulain, Le)",Comedy|Romance,4:08 AM,02/02/2019,Amazon
+6,8.6,Pekka ja Pätkä lumimiehen jäljillä,Comedy,10:10 AM,08/14/2019,GAds
+463,6.44,Real Steel,Action|Drama|Sci-Fi|IMAX,10:22 PM,05/21/2019,FbAds-in
+25,8.41,Vice,Action|Adventure|Sci-Fi|Thriller,6:39 AM,10/09/2019,TwAds
+542,4.99,Scandal,Drama,3:28 AM,05/12/2019,Amazon
+314,6.86,Naturally Native,Drama,5:42 AM,04/15/2019,Amazon
+478,11.09,Tap,Drama,6:54 PM,02/08/2019,FbAds-fb
+277,4.17,Chasing Beauty,Documentary,1:23 PM,02/07/2019,FbAds-in
+311,5.71,Free Willy 2: The Adventure Home,Adventure|Children|Drama,1:48 AM,03/05/2019,FbAds-in
+677,10.07,Turtle Diary,Comedy|Drama|Romance,12:43 PM,06/30/2019,FbAds-in
+262,13.59,Green Fire,Adventure|Drama,8:02 AM,05/15/2019,GAds
+85,2.12,Kaena: The Prophecy (Kaena: La prophétie),Action|Adventure|Animation|Children|Sci-Fi,10:26 PM,03/29/2019,FbAds-fb
+751,1.7,Strictly Sexual,Comedy|Drama|Romance,6:28 PM,12/20/2019,FbAds-fb
+98,14.46,I Will Buy You (Anata kaimasu),Drama,5:49 PM,06/25/2019,FbAds-in
+501,6.79,"Crime of Monsieur Lange, The (Le crime de Monsieur Lange)",Comedy|Crime|Drama,4:32 AM,12/27/2019,GAds
+635,11.56,Food Stamped,Documentary,2:56 AM,01/06/2019,TwAds
+9,12.18,The Princess of Egypt,Drama,6:04 PM,11/27/2019,FbAds-fb
+365,12.44,Pelle Svanslös,Animation|Children,9:00 PM,07/27/2019,FbAds-in
+39,13.5,Camille Rewinds,Comedy|Romance,12:13 PM,03/26/2019,FbAds-in
+660,3.9,"Great Caruso, The",Drama|Musical,12:33 PM,06/12/2019,GAds
+782,14.6,New Rose Hotel,Action|Drama,8:24 PM,07/25/2019,FbAds-in
+599,10.34,Soap and Water,Comedy,5:08 AM,08/29/2019,GAds
+729,11.64,That's Entertainment! III,Documentary,8:38 AM,05/04/2019,TwAds
+870,9.68,New Wave (Nouvelle vague),Drama,7:22 PM,03/08/2019,GAds
+549,1.97,Irreversible (Irréversible),Crime|Drama|Mystery|Thriller,5:25 AM,12/17/2019,Amazon
+722,12.89,Pursuit to Algiers,Adventure|Crime|Mystery|Romance,12:57 AM,10/12/2019,GAds
+347,13.13,Hope Springs,Comedy|Romance,12:46 AM,05/12/2019,FbAds-in
+738,8.81,Elles,Drama,7:04 PM,10/02/2019,FbAds-fb
+130,9.75,Britannia Hospital,Comedy|Drama,2:12 AM,12/18/2019,GAds
+648,3.49,Beyond a Reasonable Doubt,Crime|Drama|Film-Noir,12:43 AM,04/03/2019,Amazon
+172,13.48,No Looking Back,Drama|Romance,3:55 AM,01/29/2019,GAds
+123,6.88,"Vie meilleure, Une (Better Life, A)",Drama,12:25 AM,08/08/2019,FbAds-in
+204,11.27,King of the Zombies,Comedy|Horror,2:20 PM,09/24/2019,FbAds-fb
+774,12.33,Agenda: Grinding America Down,Documentary,10:29 PM,05/14/2019,TwAds
+482,14.39,Eight Men Out,Drama,6:19 PM,06/28/2019,GAds
