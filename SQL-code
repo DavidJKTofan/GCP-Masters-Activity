@@ -381,7 +381,7 @@ LIMIT 10;
 -- Diez estados que funcionan mejor
 SELECT state,
        scoring,
-       count(*) AS cantidad
+       COUNT(*) AS cantidad
 FROM `apache-tipi-ue.GrupoB_TeamAwesome.CLIENTES_FILMS_2`
 WHERE state = "Texas"
   OR state = "Virginia"
@@ -393,6 +393,25 @@ WHERE state = "Texas"
   OR state = "Alabama"
   OR state = "New York"
   OR state = "Nebraska"
+GROUP BY state,
+         scoring
+ORDER BY state DESC;
+
+--
+SELECT state,
+       scoring,
+       COUNT(*) AS cantidad
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.CLIENTES_FILMS_2`
+WHERE state = "California"
+  OR state = "Texas"
+  OR state = "Florida"
+  OR state = "New York"
+  OR state = "Virginia"
+  OR state = "District of Columbia"
+  OR state = "Ohio"
+  OR state = "Minnesota"
+  OR state = "Louisiana"
+  OR state = "Illinois"
 GROUP BY state,
          scoring
 ORDER BY state DESC;
