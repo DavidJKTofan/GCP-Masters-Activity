@@ -372,9 +372,29 @@ LIMIT 1;
 
 -- Diez estados dónde se gastan más dinero
 SELECT state,
-       ROUND(SUM(cost), 2)
+       ROUND(SUM(cost), 2) AS total_cost
 FROM `apache-tipi-ue.GrupoB_TeamAwesome.CLIENTES_FILMS_2`
 GROUP BY state
+ORDER BY total_cost DESC
 LIMIT 10;
+
+-- Diez estados que funcionan mejor
+SELECT state,
+       scoring,
+       count(*) AS cantidad
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.CLIENTES_FILMS_2`
+WHERE state = "Texas"
+  OR state = "Virginia"
+  OR state = "West virginia"
+  OR state = "Mississipi"
+  OR state = "Missouri"
+  OR state = "Ohio"
+  OR state = "Arizona"
+  OR state = "Alabama"
+  OR state = "New York"
+  OR state = "Nebraska"
+GROUP BY state,
+         scoring
+ORDER BY state DESC;
 
 --
