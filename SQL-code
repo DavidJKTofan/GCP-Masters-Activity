@@ -444,4 +444,17 @@ WHERE campaing IS NOT NULL
 GROUP BY campaing
 ORDER BY total_clientes DESC;
 
+-- Ilustrar qué género de película se ha comprado menos
+SELECT movie_genre,
+       campaing,
+       COUNT( * ) AS total_compras,
+       SUM(cost) AS total_costos
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.FILMS_ALL_SCORING_2`
+WHERE campaing IS NOT NULL
+GROUP BY movie_genre,
+         campaing
+ORDER BY total_compras ASC,
+         total_costos ASC
+LIMIT 5;
+
 --
