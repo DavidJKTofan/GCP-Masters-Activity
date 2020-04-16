@@ -45,7 +45,7 @@ SELECT *,
        END AS Grupo
 FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATOS_CLIENTES_2`;
 
--- Ordenar tabla por sexo, estado, raza, y grupo 
+-- Ordenar tabla por sexo, estado, raza, y grupo
 SELECT *
 FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATOS_CLIENTES_4`
 ORDER BY gender,
@@ -73,10 +73,10 @@ HAVING count(*) > 1;
 
 -- Top 5 de géneros que mejor funcionan
 SELECT movie_genre,
-       count(movie_genre) AS total
+       COUNT(movie_genre) AS total
 FROM `apache-tipi-ue.GrupoB_TeamAwesome.FILMS_ALL`
 GROUP BY movie_genre
-HAVING count(*) > 1
+HAVING COUNT(*) > 1
 ORDER BY total DESC
 LIMIT 5;
 
@@ -127,7 +127,7 @@ LIMIT 5;
 /* NEXT STEPS – ARITHMETIC OPERATIONS */
 -- Gastos de clientes
 SELECT id,
-       SUM (cost) AS gastos_clientes
+       SUM(cost) AS gastos_clientes
 FROM `apache-tipi-ue.GrupoB_TeamAwesome.FILMS_ALL`
 GROUP BY id
 HAVING gastos_clientes >50
@@ -234,7 +234,7 @@ ORDER BY grupo,
 -- Para todos los grupos el género que mejor funciona es Drama
 SELECT grupo,
        movie_genre,
-       max(cantidad) max_cantidad
+       MAX(cantidad) max_cantidad
 FROM `apache-tipi-ue.GrupoB_TeamAwesome.generos_por_grupo`
 GROUP BY grupo,
          movie_genre
@@ -248,5 +248,133 @@ FROM `apache-tipi-ue.GrupoB_TeamAwesome.CLIENTES_FILMS`
 GROUP BY movie_genre,
          gender
 ORDER BY cantidad DESC;
+
+-- Investigar cuántas películas se han promocionado através de las campañas
+-- Amazon: 400, FbAds-fb: 417, FbAds-in: 404, GAds: 419, TwAds: 389
+SELECT
+  campaing,
+  COUNT(campaing)
+FROM
+  `apache-tipi-ue.GrupoB_TeamAwesome.FILMS_ALL`
+GROUP BY
+  campaing;
+
+-- Segmentación de clientes teniendo en cuenta los estados en USA
+SELECT *,
+       CASE
+           WHEN state = "Maine"
+                OR state = "New Hampshire"
+                OR state = "Vermont"
+                OR state = "Massachusetts"
+                OR state = "Rhode Island"
+                OR state = "Connecticut"
+                OR state = "New York"
+                OR state = "New Jersey"
+                OR state = "Pennsylvania" THEN "NorthEast"
+           WHEN state = "Ohio"
+                OR state = "Michigan"
+                OR state = "Indiana"
+                OR state = "Wisconsin"
+                OR state = "Illinois"
+                OR state = "Minnesota"
+                OR state = "Iowa"
+                OR state = "Missouri"
+                OR state = "North Dakota"
+                OR state = "South Dakota"
+                OR state = "Nebraska"
+                OR state = "Kansas" THEN "MidWest"
+           WHEN state = "Delaware"
+                OR state = "Maryland"
+                OR state = "Virginia"
+                OR state = "West Virginia"
+                OR state = "Kentucky"
+                OR state = "North Carolina"
+                OR state = "South Carolina"
+                OR state = "Tennessee"
+                OR state = "Georgia"
+                OR state = "Florida"
+                OR state = "Alabama"
+                OR state = "Mississippi"
+                OR state = "Arkansas"
+                OR state = "Louisiana"
+                OR state = "Texas"
+                OR state = "Oklahoma"
+                OR state = "District of Columbia" THEN "South"
+           WHEN state = "Montana"
+                OR state = "Idaho"
+                OR state = "Wyoming"
+                OR state = "Colorado"
+                OR state = "New Mexico"
+                OR state = "Arizona"
+                OR state = "Utah"
+                OR state = "Nevada"
+                OR state = "California"
+                OR state = "Oregon"
+                OR state = "Washington"
+                OR state = "Alaska"
+                OR state = "Hawaii" THEN "West"
+       END AS region
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.CLIENTES_FILMS`;
+
+-- Calcular cuántos clientes hay de cada sexo
+SELECT Gender,
+       COUNT(*) AS cant
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATOS_CLIENTES_5`
+GROUP BY gender;
+
+-- Cantidad de personas en scoring
+SELECT scoring,
+       COUNT(*) AS cant
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.SCORING_CLIENTES2`
+GROUP BY scoring;
+
+--
+SELECT movie,
+       COUNT (id)
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.FILMS_ALL`
+GROUP BY movie
+ORDER BY COUNT (id) DESC
+LIMIT 25;
+
+--
+SELECT *
+FROM
+  (SELECT movie_genre,
+          ROUND(SUM (cost),2)sumaclientes,
+   FROM `apache-tipi-ue.GrupoB_TeamAwesome.FILMS_ALL`
+   GROUP BY movie_genre
+   ORDER BY sumaclientes DESC) AS t1;
+
+-- Cantidad de personas por sexo y grupo
+SELECT gender,
+       Grupo,
+       COUNT(*) AS cantidad
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.DATOS_CLIENTES_5`
+GROUP BY gender,
+         Grupo;
+
+-- Cantidad de clientes por region y por scoring
+SELECT scoring,
+       Grupo,
+       COUNT(*) AS cantidad
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.Datos_join_scoring`
+GROUP BY scoring,
+         Grupo;
+
+-- Género de película que el grupo de cliente VIP gastó más (Drama $500.26)
+SELECT Movie_genre,
+       ROUND(SUM(cost), 2) AS total_cost
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.FILMS_ALL_SCORING`
+WHERE scoring = 'VIP'
+GROUP BY movie_genre
+ORDER BY total_cost DESC
+LIMIT 1;
+
+-- Diez estados dónde se gastan más dinero
+SELECT state,
+       ROUND(SUM(cost), 2)
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.CLIENTES_FILMS_2`
+GROUP BY state
+LIMIT 10;
 
 --
