@@ -397,7 +397,7 @@ GROUP BY state,
          scoring
 ORDER BY state DESC;
 
---
+-- Cantidad de grupos de scoring en cada estado
 SELECT state,
        scoring,
        COUNT(*) AS cantidad
@@ -416,7 +416,7 @@ GROUP BY state,
          scoring
 ORDER BY state DESC;
 
--- 
+-- Peores películas porque sólo se compraron una vez aunque fueron promocionado
 SELECT movie_genre,
        campaing,
        COUNT(*) AS total_compras,
@@ -425,8 +425,7 @@ FROM `apache-tipi-ue.GrupoB_TeamAwesome.FILMS_ALL_SCORING_2`
 WHERE campaing IS NOT NULL
 GROUP BY movie_genre,
          campaing
+HAVING total_compras = 1
 ORDER BY total_compras ASC,
-         total_costos ASC
-LIMIT 5;
-
+         total_costos ASC;
 --
