@@ -428,12 +428,20 @@ GROUP BY movie_genre,
 HAVING total_compras = 1
 ORDER BY total_compras ASC,
          total_costos ASC;
--- Cuánto se han gastado cada usuario por cada campaña
+-- Cuánto se han gastado cada cliente por cada campaña
 SELECT campaing,
        ROUND(SUM(cost), 2) AS total_costos
 FROM `apache-tipi-ue.GrupoB_TeamAwesome.FILMS_ALL_SCORING_2`
 WHERE campaing IS NOT NULL
 GROUP BY campaing
 ORDER BY total_costos DESC;
+
+-- Número de clientes que han comprado algo por promoción
+SELECT campaing,
+       count(*) AS total_clientes
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.FILMS_ALL_SCORING_2`
+WHERE campaing IS NOT NULL
+GROUP BY campaing
+ORDER BY total_clientes DESC;
 
 --
