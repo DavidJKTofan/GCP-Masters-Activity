@@ -457,4 +457,12 @@ ORDER BY total_compras ASC,
          total_costos ASC
 LIMIT 5;
 
+-- Mayores picos de consumo
+SELECT MONTH,
+       count(*)
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.CLIENTES_FILMS_2`
+WHERE MONTH IS NOT NULL
+GROUP BY MONTH
+ORDER BY MONTH DESC;
+
 --
