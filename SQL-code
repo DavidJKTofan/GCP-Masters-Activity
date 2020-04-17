@@ -438,7 +438,7 @@ ORDER BY total_costos DESC;
 
 -- Número de clientes que han comprado algo por promoción
 SELECT campaing,
-       count(*) AS total_clientes
+       COUNT( * ) AS total_clientes
 FROM `apache-tipi-ue.GrupoB_TeamAwesome.FILMS_ALL_SCORING_2`
 WHERE campaing IS NOT NULL
 GROUP BY campaing
@@ -459,10 +459,31 @@ LIMIT 5;
 
 -- Mayores picos de consumo
 SELECT MONTH,
-       count(*)
+       COUNT( * )
 FROM `apache-tipi-ue.GrupoB_TeamAwesome.CLIENTES_FILMS_2`
 WHERE MONTH IS NOT NULL
 GROUP BY MONTH
 ORDER BY MONTH DESC;
+
+-- Ilustrar toda la tabla de películas con géneros establecidos, y las películas que mejor funcionan
+SELECT *
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.CLIENTES_FILMS_2`
+WHERE movie_genre IS NOT NULL;
+
+SELECT movie_genre,
+       grupo,
+       COUNT(*) AS cantidad_clientes,
+       AVG(cost) AS Costo_por_cliente
+FROM
+  (SELECT ROW_NUMBER() OVER (PARTITION BY grupo
+                             ORDER BY grupo DESC) AS rownumber,
+                            *
+   FROM `apache-tipi-ue.GrupoB_TeamAwesome.Clientes_Films_3_NN)` n
+WHERE rownumber IN (1,
+                    2)
+GROUP BY movie_genre,
+         grupo
+ORDER BY grupo,
+         costo_por_cliente DESC;
 
 --
