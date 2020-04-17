@@ -486,4 +486,21 @@ GROUP BY movie_genre,
 ORDER BY grupo,
          costo_por_cliente DESC;
 
+-- Ilustrar listado de géneros de películas que mejor funcionan por sexo
+SELECT gender,
+       movie_genre,
+       count(*) AS cantidad_clientes,
+       AVG(cost) AS Costo_por_cliente
+FROM
+  (SELECT ROW_NUMBER() OVER (PARTITION BY gender
+                             ORDER BY gender DESC) AS rownumber,
+                            *
+   FROM `apache-tipi-ue.GrupoB_TeamAwesome.Clientes_Films_3_NN`) n
+WHERE rownumber IN (1,
+                    2)
+GROUP BY movie_genre,
+         gender
+ORDER BY gender DESC,
+         costo_por_cliente DESC;
+
 --
