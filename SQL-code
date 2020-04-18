@@ -523,5 +523,110 @@ GROUP BY
 ORDER BY
   grupo,
   costo_por_cliente DESC;
-  
+
+-- Género de película que funciona mejor por sexo
+SELECT gender,
+       COUNT( gender ) AS Cantidad,
+       movie_genre
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.Clientes_Films_3_NN`
+GROUP BY movie_genre,
+         gender
+ORDER BY Cantidad DESC
+LIMIT 2;
+
+SELECT gender,
+       movie_genre,
+       cantidad_clientes,
+       Costo_por_cliente
+FROM
+  (SELECT ROW_NUMBER() OVER (PARTITION BY gender
+                             ORDER BY gender DESC) AS rownumber,
+                            *
+   FROM `apache-tipi-ue.GrupoB_TeamAwesome.Genre_by_gender`) n
+WHERE rownumber = 1
+ORDER BY gender DESC,
+         costo_por_cliente DESC;
+
+SELECT gender,
+       movie_genre,
+       COUNT(*) AS cantidad_clientes,
+       ROUND(AVG(cost), 2) AS Costo_por_cliente
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.Clientes_Films_3_NN`
+GROUP BY movie_genre,
+         gender
+ORDER BY gender DESC,
+         costo_por_cliente DESC
+
+-- Género de película que funciona mejor por clientes
+SELECT grupo,
+       movie_genre,
+       COUNT(*) AS cantidad_clientes,
+       ROUND(AVG(cost), 2) AS Costo_por_cliente
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.Clientes_Films_3_NN`
+GROUP BY movie_genre,
+         grupo
+ORDER BY grupo DESC,
+         costo_por_cliente DESC;
+
+SELECT grupo,
+       movie_genre,
+       cantidad_clientes,
+       Costo_por_cliente
+FROM
+  (SELECT ROW_NUMBER() OVER (PARTITION BY grupo
+                             ORDER BY grupo DESC) AS rownumber,
+                            *
+   FROM `apache-tipi-ue.GrupoB_TeamAwesome.Genre_by_grupo`) n
+WHERE rownumber = 1
+ORDER BY grupo DESC,
+         costo_por_cliente DESC;
+
+-- Sementación de géneros de películas por costes
+SELECT region,
+       movie_genre,
+       COUNT(*) AS cantidad_clientes,
+       ROUND(AVG(cost), 2) AS Costo_por_cliente
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.Clientes_Films_3_NN`
+GROUP BY movie_genre,
+         region
+ORDER BY region DESC,
+         costo_por_cliente DESC;
+
+SELECT region,
+       movie_genre,
+       cantidad_clientes,
+       Costo_por_cliente
+FROM
+  (SELECT ROW_NUMBER() OVER (PARTITION BY region
+                             ORDER BY region DESC) AS rownumber,
+                            *
+   FROM `apache-tipi-ue.GrupoB_TeamAwesome.Genre_by_region`) n
+WHERE rownumber = 1
+ORDER BY region DESC,
+         costo_por_cliente DESC;
+
+-- Género de película que funciona mejor por cantidad de personas
+SELECT region,
+       movie_genre,
+       count(*) AS cantidad_clientes,
+       round(AVG(cost), 2) AS Costo_por_cliente
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.Clientes_Films_3_NN`
+GROUP BY movie_genre,
+         region
+ORDER BY region DESC,
+         cantidad_clientes DESC;
+
+SELECT region,
+       movie_genre,
+       cantidad_clientes,
+       Costo_por_cliente
+FROM
+  (SELECT ROW_NUMBER() OVER (PARTITION BY region
+                             ORDER BY region DESC) AS rownumber,
+                            *
+   FROM `apache-tipi-ue.GrupoB_TeamAwesome.Genre_by_region_2`) n
+WHERE rownumber = 1
+ORDER BY region DESC,
+         cantidad_clientes DESC;
+
 --
