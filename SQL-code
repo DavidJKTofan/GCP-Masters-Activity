@@ -630,3 +630,24 @@ ORDER BY region DESC,
          cantidad_clientes DESC;
 
 --
+SELECT gender,
+       movie_genre,
+       COUNT(*) AS cantidad_clientes,
+       ROUND(AVG(cost), 2) AS Costo_por_cliente
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.Clientes_Films_3_NN`
+GROUP BY movie_genre,
+         gender
+ORDER BY gender DESC,
+         cantidad_clientes DESC;
+
+SELECT grupo,
+       movie_genre,
+       COUNT(*) AS cantidad_clientes,
+       ROUND(AVG(cost), 2) AS Costo_por_cliente
+FROM `apache-tipi-ue.GrupoB_TeamAwesome.Clientes_Films_3_NN`
+GROUP BY movie_genre,
+         grupo
+ORDER BY grupo DESC,
+         cantidad_clientes DESC;
+
+--
